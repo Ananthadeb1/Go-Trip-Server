@@ -4,10 +4,13 @@ const app = express();
 require("dotenv").config();
 
 const PORT = process.env.PORT || 3000;
+
 // Middleware
 app.use(cors());
 app.use(express.json());
 
+//connection
+//don't touch from here to
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.emv2o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
@@ -35,6 +38,7 @@ async function run() {
   }
 }
 run().catch(console.dir);
+//here
 
 app.get("/", (req, res) => {
   res.send("server setup done");
@@ -43,3 +47,8 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+// for run server type in cmd-
+// nodemon index.js
+// search in browser
+// http://localhost:3000/
