@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 require("dotenv").config();
+const axios = require("axios");
 
 const PORT = process.env.PORT || 3000;
 
@@ -32,15 +33,34 @@ async function run() {
     console.log(
       "Pinged your deployment. You successfully connected to MongoDB!"
     );
-  } finally {
-    // Ensures that the client will close when you finish/error
-    await client.close();
+  } catch (error) {
+    console.error("Failed to connect to MongoDB:", error);
   }
 }
 run().catch(console.dir);
 //here
 
-app.get("/", (req, res) => {
+const userCollection = client.db("goTrip").collection("users");
+
+//user releated apis
+app.get("/users", async (req, res) => {
+  const result = await userCollection.find().toArray();
+  res.send(result);
+});
+
+app.post("/users", async (req, res) => {
+  const user = req.body;
+  //check if user already exists
+  const query = { email: user.email };
+  const existingUser = await userCollection.findOne(query);
+  if (existingUser) {
+    return res.send({ message: "User already exists", insertedId: null });
+  }
+  const result = await userCollection.insertOne(user);
+  res.send(result);
+});
+
+app.get("/", (_, res) => {
   res.send("server setup done");
 });
 
@@ -52,3 +72,4 @@ app.listen(PORT, () => {
 // nodemon index.js
 // search in browser
 // http://localhost:3000/
+//database mail - 103@
