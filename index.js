@@ -3,6 +3,7 @@ const cors = require("cors");
 const app = express();
 require("dotenv").config();
 const axios = require("axios");
+const jwt = require("jsonwebtoken");
 
 const PORT = process.env.PORT || 3000;
 
@@ -41,6 +42,15 @@ run().catch(console.dir);
 //here
 
 const userCollection = client.db("goTrip").collection("users");
+
+//jwt releted work
+app.post("/jwt", async (req, res) => {
+  const user = req.body;
+  const token = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, {
+    expiresIn: "1h",
+  });
+  res.send({ token });
+});
 
 //user releated apis
 app.get("/users", async (req, res) => {
