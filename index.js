@@ -5,7 +5,7 @@ require("dotenv").config();
 const axios = require("axios");
 const jwt = require("jsonwebtoken");
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
@@ -77,6 +77,7 @@ app.get("/users", verifyToken, async (req, res) => {
 
 app.post("/users", async (req, res) => {
   const user = req.body;
+  console.log(user);
   //check if user already exists
   const query = { email: user.email };
   const existingUser = await userCollection.findOne(query);
@@ -88,7 +89,7 @@ app.post("/users", async (req, res) => {
 });
 
 //make normal user to admin
-app.patch("user/admin/:id", async (req, res) => {
+app.patch("/users/admin/:id", async (req, res) => {
   const id = req.params.id;
   const filter = { _id: new ObjectId(id) };
   const updateDoc = {
@@ -115,7 +116,7 @@ app.get("/users/admin/:email", verifyToken, async (req, res) => {
   res.send({ admin });
 });
 //detete user
-app.delete("user/:id", async (req, res) => {
+app.delete("/users/:id", async (req, res) => {
   const id = req.params.id;
   const query = { _id: new ObjectId(id) };
   const result = await userCollection.deleteOne(query);
