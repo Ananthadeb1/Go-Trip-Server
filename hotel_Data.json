@@ -1,0 +1,4916 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Hotel A1",
+      "location": "Sylhet",
+      "latitude": 24.885461740965074,
+      "longitude": 91.86440589866869,
+      "rating": 4.6,
+      "amenities": [
+        "Swimming Pool",
+        "Gym",
+        "Eco Tours",
+        "Restaurant"
+      ],
+      "hotelImages": [
+        "https://images.pexels.com/photos/30664967/pexels-photo-30664967/free-photo-of-dubai-modern-skyscraper-with-unique-design.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      ],
+      "totalAvailableOccupancy": 7,
+      "rooms": [
+        {
+          "roomId": 100,
+          "type": "Standard Room",
+          "pricePerNight": 2500,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
+            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
+            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+          ]
+        },
+        {
+          "roomId": 101,
+          "type": "Deluxe Room",
+          "pricePerNight": 4000,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://mir-s3-cdn-cf.behance.net/project_modules/1400/29d33f141215185.624f4d9ecc269.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHia8-_f5b0TAw38X8tPo0ERTo3s1ovqXULj07KjN2MlHNNUWWirHXlpU5brqU-wA5BU&usqp=CAU",
+            "https://earthid.sg/wp-content/uploads/2020/03/Earth_Interior_Design-56_Anchorvale_Crescent_010-1024x683.jpg.webp",
+            "https://i.pinimg.com/236x/e8/03/6f/e8036fca7dd9b34e154adb9338751546.jpg"
+          ]
+        },
+        {
+          "roomId": 102,
+          "type": "Suite",
+          "pricePerNight": 6000,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://www.shutterstock.com/image-illustration/small-bedroom-wooden-wardrobe-3d-260nw-1208839480.jpg",
+            "https://hotelinteriors.com.au/wp-content/uploads/2020/11/Hotel-Interiors-resort-furniture-supplier.png",
+            "https://d1hy6t2xeg0mdl.cloudfront.net/image/616696/489059bbb5/700-width",
+            "https://www.oppeinhome.com/upload/image/product/thumb/20211009/white-grey-beige-modern-hotel-wood-grain1.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Clean, quiet, and close to all attractions.",
+          "date": "2025-04-23"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-16"
+        },
+        {
+          "reviewId": 4,
+          "rating": 3,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-25"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-23"
+        },
+        {
+          "reviewId": 6,
+          "rating": 3,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-07"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Hotel B2",
+      "location": "Cox's Bazar",
+      "latitude": 21.42679213521345,
+      "longitude": 92.01458251901533,
+      "rating": 3.7,
+      "amenities": [
+        "WiFi",
+        "Gym",
+        "Swimming Pool",
+        "Restaurant",
+        "Breakfast Included"
+      ],
+      "hotelImages": [
+        "https://media.istockphoto.com/id/187363337/photo/modern-hotel-building-in-summer.jpg?s=612x612&w=0&k=20&c=eRVDcadZTKs5t2K-CEeXT6DiJQ68Fnbs6u9F-0S_v8Q="
+        
+      ],
+      "totalAvailableOccupancy": 4,
+      "rooms": [
+        {
+          "roomId": 200,
+          "type": "Standard Room",
+          "pricePerNight": 2000,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGfJsoCRNplIz_6516sfUcGUHx9DVuhKjx8A&s",
+            "https://www.dereknielsen.com/wp-content/uploads/2023/05/AdobeStock_584909013.jpg",
+            "https://i.pinimg.com/736x/a3/f1/7d/a3f17df381f2c9fc3f0047a9922e80c4.jpg",
+            "https://images.squarespace-cdn.com/content/v1/5e71144d8da1b81296674412/1590259834531-KBIK0R8L9EHXYPNMUT4J/17.jpg"
+          ]
+        },
+        {
+          "roomId": 201,
+          "type": "Deluxe Room",
+          "pricePerNight": 3000,
+          "availability": false,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://cdn.mos.cms.futurecdn.net/dhfVvvK94X77PVLhWcesyW.jpg",
+            "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2016/9/27/2/CI_Alice-Cramer-luxury-hotel-room.jpg.rend.hgtvcom.1280.1280.85.suffix/1475020173718.webp",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBX3Snm7EmjRKp-p7vGzauXEjvWFG9vT0CRw&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRquvT-PE-NAYkUPf2vSStTpT-B-FRA9iVKuQ&s"
+          ]
+        },
+        {
+          "roomId": 202,
+          "type": "Suite",
+          "pricePerNight": 5000,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://www.luxurylifestylemag.co.uk/wp-content/uploads/2017/12/PV_Marcellus_2-109.jpg",
+            "https://www.rongininterior.com/images/gallery/living-room/contemporary-living-room-partition-design-actual.jpg",
+            "https://bdinterior.net/storage/2021/10/elegant-hotel-room-interior-design-in-Bangladesh-562x450.jpg",
+            "https://www.rongininterior.com/images/residential/master-bedroom.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-09"
+        },
+        {
+          "reviewId": 2,
+          "rating": 5,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-21"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-17"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-10"
+        },
+        {
+          "reviewId": 6,
+          "rating": 3,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 7,
+          "rating": 5,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-20"
+        },
+        {
+          "reviewId": 8,
+          "rating": 4,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-05"
+        },
+        {
+          "reviewId": 9,
+          "rating": 5,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-17"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Hotel C3",
+      "location": "Bandarban",
+      "latitude": 22.195136329489134,
+      "longitude": 92.22832284491851,
+      "rating": 4.6,
+      "amenities": [
+        "Restaurant",
+        "WiFi",
+        "Breakfast Included",
+        "Gym",
+        "Swimming Pool",
+        "Beach Access"
+      ],
+      "hotelImages": [
+        "https://etimg.etb2bimg.com/thumb/msid-77977319,imgsize-302094,width-1200,height=765,overlay-ethospitality/hotels/ihg-signs-two-new-hotels-in-bangladesh.jpg",
+        
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZAS1IOy2Z8VKnc5jSVWUepn2LAs9R4L-nCYr6yGQ_DoR9ELwxtQAFhflBDqP9bVgszHs&usqp=CAU"
+      ],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 300,
+          "type": "Standard Room",
+          "pricePerNight": 3000,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/0f/fd/49/executive-suite.jpg?w=1200&h=-1&s=1",
+            "https://images4.via.com/static/hotel/images/21/505620/505620_0_t.jpg",
+            "https://foto.hrsstatic.com/fotos/0/2/800/458/80/000000/http%3A%2F%2Ffoto-origin.hrsstatic.com%2Ffoto%2F0%2F5%2F2%2F3%2F052315%2F052315_z_9299525.jpg/tryxMYreFhi05HThN4qChA%3D%3D/1024%2C682/6/M_Hotel_Singapore-Singapore-Room-10-52315.jpg",
+            "https://hotel71.com.bd/asset/images/hr/lavish-double-hr1/lavish-double-3_hr1.jpg"
+          ]
+        },
+        {
+          "roomId": 301,
+          "type": "Deluxe Room",
+          "pricePerNight": 4100,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://image.made-in-china.com/2f0j00ZRyfUpwrZgbd/Wooden-Material-Hotel-Hatil-Furniture-Bd-Picture.webp",
+            "https://image.made-in-china.com/2f0j00RwLkIPzBHDcH/5-Star-Hotel-Minimalist-TV-Cabinet-Bedroom-Set-Luxury-Hotel-Room-Furniture.webp",
+            "https://image.made-in-china.com/2f0j00brqfldoPAgcN/European-St-Regis-Hotel-Room-Furniture-4-5-Star-Hotel-Bed.webp",
+            "https://www.peninsula.com/en/-/media/images/new-york/03roomssuites/2024-refurbishment-rooms-and-suites/new-york_deluxe-room-2.jpg?mw=905&hash=58CAD2CCBA1B6A595CB001E1C445C980"
+          ]
+        },
+        {
+          "roomId": 302,
+          "type": "Suite",
+          "pricePerNight": 7000,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://www.grandsultanresort.com/wp-content/uploads/2023/12/Untitled-design-_2_.webp",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/239640886.jpg?k=63354dd269772310522300d240bb4f06b9bb00bab7eec534578ae6ebba471c8d&o=&hp=1",
+            "https://www.grandsultanresort.com/wp-content/uploads/2023/12/RSD-2.jpg",
+            "https://cf.bstatic.com/xdata/images/hotel/square300/242939171.webp?k=62164c7c55a2a10877dceaa773eaa0aaf0b8fcf4ba71f9759ffc1a72b22cea19&o="
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 4,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-07"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-25"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-24"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-05"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Great value for the price.",
+          "date": "2025-04-02"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Hotel D4",
+      "location": "Sundarbans",
+      "latitude": 22.011768557461203,
+      "longitude": 89.17928791803163,
+      "rating": 5.0,
+      "amenities": [
+        "Restaurant",
+        "Gym",
+        "WiFi",
+        "Breakfast Included",
+        "Room Service",
+        "Eco Tours"
+      ],
+      "hotelImages": [
+        "https://q-xx.bstatic.com/xdata/images/hotel/max500/573421951.jpg?k=90ac013c785432463a1d74b477d7264f993dd162ef190512914a6219de580e98&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/357887861.jpg?k=4bb4c7a0e70b4e84029a3313fc0cd89fe610a73eb7e04bc223940e82be0999f0&o=&hp=1",
+        "https://dhaka-regency.dhaka-hotel.com/data/Pics/OriginalPhoto/3113/311398/311398285/regency-hotel-dhaka-pic-91.JPEG"
+      ],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 400,
+          "type": "Standard Room",
+          "pricePerNight": 2100,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://www.fivestaralliance.com/files/fsa/nodes/2009/11469/1672_0_conradbgk_fsa-g.jpg",
+            "https://www.carpentry.sg/wp-content/uploads/2023/12/Parc-Oasis-Condo-Renovation-Watermark-6.jpg",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.marriott.com%2Fen-us%2Fhotels%2Fdacmd-le-meridien-dhaka%2Foverview%2F&psig=AOvVaw1dXcPw0RyaXCcMKBh-z0MZ&ust=1746185128981000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiH4teUgo0DFQAAAAAdAAAAABBt",
+            "https://media-cdn.tripadvisor.com/media/photo-s/0e/7f/4b/5b/hotel-71-suite-room.jpg"
+          ]
+        },
+        {
+          "roomId": 401,
+          "type": "Deluxe Room",
+          "pricePerNight": 4200,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/05/b9/cb/sarah-resort.jpg?w=1200&h=-1&s=1",
+            "https://q-xx.bstatic.com/xdata/images/hotel/max400/457329929.jpg?k=d74ab2e667bd31927baa5bd12b1ab08f52df775b160b72881adadf8148fbbd60",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1000657523154808451/original/e95f08f6-b167-4cbd-811b-ff2fc3ad7d93.jpeg",
+            "https://i.pinimg.com/originals/44/5a/43/445a4349564dbe1e6a9fcfdcc3964d49.jpg"
+          ]
+        },
+        {
+          "roomId": 402,
+          "type": "Suite",
+          "pricePerNight": 6100,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://i.pinimg.com/736x/c1/2d/5f/c12d5f88623ff520a3d2591772e0ff16.jpg",
+            "https://i.digsdigs.com/modern-hotel-style-bedroom.jpg",
+            "https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2017/07/27163528/hotel-style-bedroom-ideas-double-layer-drapery.png",
+            "https://sinaholz.com/wp-content/uploads/2023/01/SONIA-3-min-scaled.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 4,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-20"
+        },
+        {
+          "reviewId": 2,
+          "rating": 5,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-05"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "The rooms were clean and spacious.",
+          "date": "2025-04-05"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-03"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-14"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-21"
+        },
+        {
+          "reviewId": 7,
+          "rating": 3,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-10"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Hotel E5",
+      "location": "Sylhet",
+      "latitude": 24.902528644628713,
+      "longitude": 91.87383413600402,
+      "rating": 4.6,
+      "amenities": [
+        "Gym",
+        "Eco Tours",
+        "Restaurant",
+        "Room Service"
+      ],
+      "hotelImages": [
+        "https://images.trvl-media.com/lodging/9000000/8080000/8074800/8074780/2ee76a18.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+        "https://www.cnineo.com/images/project/grand-sylhet-hotel-resort-in-bangladesh-19.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/19/14/1a/birds-eye-view.jpg?w=1200&h=-1&s=1"
+      ],
+      "totalAvailableOccupancy": 5,
+      "rooms": [
+        {
+          "roomId": 500,
+          "type": "Standard Room",
+          "pricePerNight": 2200,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://hips.hearstapps.com/hmg-prod/images/shoreditch-sofabed-kingsize-heron-weave-natural-lifestyle-str-1644170454.jpg",
+            "https://hips.hearstapps.com/hmg-prod/images/gabrielle-superking-bed-sparklepowder-gold-2021-social-square-02-1-1644278026.jpg",
+            "https://www.dowsingandreynolds.com/wp-content/uploads/2024/06/@emmagreendesign.webp",
+            "https://www.dowsingandreynolds.com/wp-content/uploads/2024/06/@kylejosephinteriors_8.webp"
+          ]
+        },
+        {
+          "roomId": 501,
+          "type": "Deluxe Room",
+          "pricePerNight": 4300,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://hips.hearstapps.com/hmg-prod/images/alchemist-king-bed-plush-tumeric-2021-pr-portrait-4-1644309854.jpg",
+            "https://st.hzcdn.com/simgs/pictures/bedrooms/mallin-cres-master-bedroom-atmosphere-interior-design-inc-img~90015ec60f317dc0_14-1361-1-f0e261a.jpg",
+            "https://basichomediy.com/wp-content/uploads/2024/06/hotel-vibe-bedroom-side-tables.png",
+            "https://cdn.mos.cms.futurecdn.net/KgSsC5SMHCBP7PxgtydLGa.jpg"
+          ]
+        },
+        {
+          "roomId": 502,
+          "type": "Suite",
+          "pricePerNight": 6200,
+          "availability": false,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://www.lovehappensmag.com/blog/wp-content/uploads/2019/03/WhatsApp-Image-2019-03-25-at-11.29.16-AM-7-1-1024x768.jpeg",
+            "https://www.juliettesinteriors.co.uk/wp-content/uploads/2022/07/cover-blog.jpg",
+            "https://expressinnindia.com/wp-content/uploads/2024/07/Freesia-God-23.jpg",
+            "https://expressinnindia.com/wp-content/uploads/2024/07/Freesia-God-25.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 4,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-08"
+        },
+        {
+          "reviewId": 2,
+          "rating": 5,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-20"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-18"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-16"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-27"
+        },
+        {
+          "reviewId": 6,
+          "rating": 5,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-03"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Hotel F6",
+      "location": "Mahasthangarh",
+      "latitude": 24.961981331373778,
+      "longitude": 89.37625984868816,
+      "rating": 4.5,
+      "amenities": [
+        "Gym",
+        "Breakfast Included",
+        "WiFi",
+        "Swimming Pool"
+      ],
+      "hotelImages": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/01/58/dc/view-from-outside.jpg?w=1200&h=-1&s=1",
+        "https://wpcdn.us-midwest-1.vip.tn-cloud.net/www.coloradohomesmag.com/content/uploads/2023/09/p/h/2023-gceo-the-benson-hotel-exterior-1-scaled.jpg",
+        "https://media.istockphoto.com/id/503016934/photo/entrance-of-luxury-hotel.jpg?s=612x612&w=0&k=20&c=DXFzucB2xWGf3PI6_yjhLKDvrFcGlOpOjXh6KDI8rqU="
+      ],
+      "totalAvailableOccupancy": 6,
+      "rooms": [
+        {
+          "roomId": 600,
+          "type": "Standard Room",
+          "pricePerNight": 2300,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://sthotelsmalta.com/wp-content/uploads/2022/06/modern-luxury-bedroom-suite-and-bathroom-with-working-table-scaled.jpg",
+            "https://static.vecteezy.com/system/resources/previews/027/940/500/large_2x/contemporary-hotel-room-design-free-photo.jpg",
+            "https://hoteldesigns.net/wp-content/uploads/2017/05/Beacon2.jpg",
+            "https://vwartclub.com/media/projects/3322/1.jpg"
+          ]
+        },
+        {
+          "roomId": 601,
+          "type": "Deluxe Room",
+          "pricePerNight": 4400,
+          "availability": false,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
+            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
+            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+          ]
+        },
+        {
+          "roomId": 602,
+          "type": "Suite",
+          "pricePerNight": 6300,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://sthotelsmalta.com/wp-content/uploads/2022/06/modern-luxury-bedroom-suite-and-bathroom-with-working-table-scaled.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH983u5jiG0sPrgHePw-r4vks9h5gFFwuafg&s",
+            "https://www.seleqtionshotels.com/content/dam/seleqtions/Connaugth/TCPD_PremiumBedroom4_1235.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+            "https://fruitbasket.limepack.com/blog/wp-content/uploads/2024/04/pexels-pixabay-271618.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 4,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-04"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 4,
+          "rating": 3,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-25"
+        },
+        {
+          "reviewId": 5,
+          "rating": 5,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 6,
+          "rating": 5,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-01"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Hotel G7",
+      "location": "Bandarban",
+      "latitude": 22.204241712882858,
+      "longitude": 92.21396597119653,
+      "rating": 4.7,
+      "amenities": [
+        "Beach Access",
+        "Gym",
+        "Room Service",
+        "Breakfast Included",
+        "Restaurant"
+      ],
+      "hotelImages": [
+        "https://mir-s3-cdn-cf.behance.net/project_modules/1400/8fa9ac162707015.63da12f441b4b.jpg",
+        "https://p.turbosquid.com/ts-thumb/Np/X6MJHV/CO/facade02_view01/jpg/1643921746/1920x1080/fit_q87/3e6c122c2ba6a23d2a99d1fb150c42fb92c0ce8d/facade02_view01.jpg",
+        "https://www.ebhosworks.com.ng/wp-content/uploads/2022/04/Modern-hotel-exterior-design-architecture.jpg"
+      ],
+      "totalAvailableOccupancy": 6,
+      "rooms": [
+        {
+          "roomId": 700,
+          "type": "Standard Room",
+          "pricePerNight": 2400,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://geekspin.co/wp-content/uploads/2021/07/Can-you-rent-a-hotel-for-a-few-hours.jpg",
+            "https://img.freepik.com/free-photo/modern-studio-apartment-design-with-bedroom-living-space_1262-12375.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/luxury-bedroom-hotel_1150-10836.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/hotel-room-interior-with-bedroom-area-living-space-kitchen_1262-12288.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+          ]
+        },
+        {
+          "roomId": 701,
+          "type": "Deluxe Room",
+          "pricePerNight": 4500,
+          "availability": false,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-room-with-bed-warm-light-classic-europe-style_24637-613.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-bedroom_124907-427.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-modern-luxury-bedroom-suite-bathroom_105762-1936.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+          ]
+        },
+        {
+          "roomId": 702,
+          "type": "Suite",
+          "pricePerNight": 6400,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/one-king-size-bed-hotel-room_114579-12159.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-bedroom-int_1203-2724.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/double-bed-with-cushions_1203-19.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/tidy-hotel-room-with-brown-curtains_1203-1493.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-23"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-20"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-20"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-06"
+        },
+        {
+          "reviewId": 5,
+          "rating": 5,
+          "comment": "Great value for the price.",
+          "date": "2025-04-25"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Hotel H8",
+      "location": "Saint Martin",
+      "latitude": 20.632870513163475,
+      "longitude": 92.32409134458166,
+      "rating": 3.6,
+      "amenities": [
+        "Breakfast Included",
+        "WiFi",
+        "Swimming Pool",
+        "Beach Access",
+        "Restaurant",
+        "Eco Tours"
+      ],
+      "hotelImages": [
+        "https://i.pinimg.com/originals/77/86/2f/77862f7872c18052f0d5d9113ca90ed3.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2023/8/336872955/LK/GE/VC/150189352/hotel-exterior-designing-service.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2023/8/336872955/LK/GE/VC/150189352/hotel-exterior-designing-service.jpg"
+      ],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 800,
+          "type": "Standard Room",
+          "pricePerNight": 2600,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/bedroom-with-window-glass-door-ceiling-fan-wooden-flooring-pool-villa-house-home-condo-apartment_176546-80.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-lifestyle-background-interior-exterior-37_1118535-3385.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-comtemporary-luxury-bedroom-suite-hotel-with-tv_105762-2058.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-modern-hotel-room-with-large-double-bed_321831-7235.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        },
+        {
+          "roomId": 801,
+          "type": "Deluxe Room",
+          "pricePerNight": 4600,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/croissant-boiled-egg-orange-juice-yogurt-breakfast-tray-bed-hotel-room_176474-2601.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/pillow-bed_74190-2048.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/white-bedroom-hotel_1150-12633.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/close-up-bed-with-black-cushion_1203-544.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        },
+        {
+          "roomId": 802,
+          "type": "Suite",
+          "pricePerNight": 6600,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/pillow-bed_1203-2819.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/3d-rendering-luxury-modern-bedroom-suite-hotel_105762-1563.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel-suite-living-room.jpg",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/25216067.jpg?k=b64f3043f550205b712654e69fff01ebbd5e6c61c66ae7799f90569306267a9f&o=&hp=1"
+
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-06"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-21"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-05"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-10"
+        },
+        {
+          "reviewId": 6,
+          "rating": 3,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-10"
+        },
+        {
+          "reviewId": 7,
+          "rating": 4,
+          "comment": "Great value for the price.",
+          "date": "2025-04-21"
+        },
+        {
+          "reviewId": 8,
+          "rating": 5,
+          "comment": "Great value for the price.",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 9,
+          "rating": 5,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-24"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Hotel I9",
+      "location": "Mahasthangarh",
+      "latitude": 24.96705890342894,
+      "longitude": 89.37038245121347,
+      "rating": 3.9,
+      "amenities": [
+        "Gym",
+        "Eco Tours",
+        "Swimming Pool",
+        "Beach Access",
+        "Breakfast Included"
+      ],
+      "hotelImages": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXE93Em8nftJXTgHciOHZcLRfVgxolcTGJeHLh7ZnCQSRgtSa6YutNbbnZpHdAuoK4TXs&usqp=CAU",
+        "https://hips.hearstapps.com/hmg-prod/images/hotels-in-la-4-1638281665.jpg",
+        "https://cdn.asdfinc.io/media/30776/the-benson-hotel-and-faculty-clubdji_0154-1.jpg?anchor=center&mode=crop&width=1920&height=1080&rnd=133527397190000000&quality=75"
+      ],
+      "totalAvailableOccupancy": 3,
+      "rooms": [
+        {
+          "roomId": 900,
+          "type": "Standard Room",
+          "pricePerNight": 2700,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv_105762-2301.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/25215938.jpg?k=73da5b38faff6969d1b05ce4bf59fd8c1842955f522ea91bc9f569917a74ef3e&o=&hp=1",
+            "https://img.freepik.com/premium-photo/interior-photography-modern-style-bedroom-with-large-bed_321831-670.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/white-comfortable-pillow-blanket-bed-with-light-lamp_74190-12078.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        },
+        {
+          "roomId": 901,
+          "type": "Deluxe Room",
+          "pricePerNight": 4700,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/vacation-brown-youth-room-sleeping_1253-770.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/double-bed-with-pillows_1203-124.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/bedroom-with-ceiling-fan-pool-villa-house-home-condo-apartment_176546-76.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/pillow-bed_74190-6245.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        },
+        {
+          "roomId": 902,
+          "type": "Suite",
+          "pricePerNight": 6700,
+          "availability": false,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/bed-with-armchair_1203-741.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/interior-bedroom-white-creamy-tones_181624-16134.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/bedroom-interior_53876-32151.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-luxury-modern-bedroom-suite-tv-with-wardrobe-walk-closet_105762-1941.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-26"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "The rooms were clean and spacious.",
+          "date": "2025-04-07"
+        },
+        {
+          "reviewId": 4,
+          "rating": 3,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-08"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-04"
+        },
+        {
+          "reviewId": 6,
+          "rating": 3,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-09"
+        },
+        {
+          "reviewId": 7,
+          "rating": 5,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-05"
+        },
+        {
+          "reviewId": 8,
+          "rating": 5,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-28"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Hotel J10",
+      "location": "Paharpur",
+      "latitude": 25.024214226757937,
+      "longitude": 89.01264210959043,
+      "rating": 3.7,
+      "amenities": [
+        "Beach Access",
+        "Swimming Pool",
+        "Gym",
+        "Room Service",
+        "Eco Tours"
+      ],
+      "hotelImages": [
+        "https://media.istockphoto.com/id/151567458/photo/hotel-with-empty-lot.jpg?s=612x612&w=0&k=20&c=6aHyjxmHz6F7NB1VtgL1DLbcPQ2A_Pv7B6R9bpIi3JU=",
+        "https://5.imimg.com/data5/SELLER/Default/2023/8/336872951/UC/XC/VH/150189352/hotel-exterior-designing-service.jpeg",
+        "https://5.imimg.com/data5/SELLER/Default/2023/8/336872951/UC/XC/VH/150189352/hotel-exterior-designing-service.jpeg"
+      ],
+      "totalAvailableOccupancy": 5,
+      "rooms": [
+        {
+          "roomId": 1000,
+          "type": "Standard Room",
+          "pricePerNight": 2800,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/double-bed-with-cushions_1203-687.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/3d-rendering-luxury-modern-bedroom-suite-hotel-with-dining-table_105762-1380.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/interior-hotel-room-residence-is-furnished-modernly-copy-space-background_1258-84783.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/two-individual-beds_1203-18.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+            
+          ]
+        },
+        {
+          "roomId": 1001,
+          "type": "Deluxe Room",
+          "pricePerNight": 4800,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-bed_124907-244.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/minsk-belarus-september-2019-interior-modern-luxure-vip-bedroom-with-big-double-bed-studio-apartments-white-light-color-style_97694-5832.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-modern-luxury-bedroom-suite-bathroom_105762-1945.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/lifestyle-home-suite-bedroom-interior_1203-4134.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        },
+        {
+          "roomId": 1002,
+          "type": "Suite",
+          "pricePerNight": 6800,
+          "availability": false,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/luxury-chill-bedroom-hotel_1150-10902.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/beautiful-luxury-bedroom-suite-hotel-with-tv-working-table_105762-1693.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/smiling-businessman-communicating-mobile-phone-while-standing-with-travel-bag-hotel-room_637285-7626.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/white-comfortable-pillow-bed-decoration-interior-bed-room_74190-10023.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-19"
+        },
+        {
+          "reviewId": 2,
+          "rating": 5,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-05"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-26"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-09"
+        },
+        {
+          "reviewId": 5,
+          "rating": 5,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-18"
+        },
+        {
+          "reviewId": 6,
+          "rating": 3,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-08"
+        },
+        {
+          "reviewId": 7,
+          "rating": 5,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-04"
+        },
+        {
+          "reviewId": 8,
+          "rating": 5,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-28"
+        },
+        {
+          "reviewId": 9,
+          "rating": 5,
+          "comment": "Great value for the price.",
+          "date": "2025-04-22"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Hotel K11",
+      "location": "Cox's Bazar",
+      "latitude": 21.434616209416305,
+      "longitude": 92.00947881682912,
+      "rating": 3.7,
+      "amenities": [
+        "Restaurant",
+        "WiFi",
+        "Eco Tours",
+        "Beach Access",
+        "Gym",
+        "Swimming Pool"
+      ],
+      "hotelImages": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/641151494.jpg?k=74ea667970853565b0503bd675936738d08f067267387672c2f6bd32d1a5f0e7&o=&hp=1",
+        "https://u.profitroom.pl/2020-hotelswing-pl/thumb/2560x1440/uploads/hotel.jpg",
+        "https://www.cvent.com/sites/default/files/image/2024-10/Hyatt-Regency-Grand-Reserve.jpg"
+      ],
+      "totalAvailableOccupancy": 2,
+      "rooms": [
+        {
+          "roomId": 1100,
+          "type": "Standard Room",
+          "pricePerNight": 2900,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/luxury-bedroom-suite-hotel-with-tv-working-table_105762-1855.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/pillow-bed_1203-9643.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-interior-design-bedroom-pool-villa-with-high-raised-ceiling-roses-bed-house-home-building_41487-248.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/interior-design-bedroom-with-modern-decoration_181624-46706.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        },
+        {
+          "roomId": 1101,
+          "type": "Deluxe Room",
+          "pricePerNight": 4900,
+          "availability": false,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/interior-modern-comfortable-hotel-room_135427-2907.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/lonely-bride-sits-bed-large-hotel-room_8353-7215.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/hotel-rooms_739149-449.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/white-comfortable-pillow-blanket-bed-with-light-lamp_74190-12074.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        },
+        {
+          "roomId": 1102,
+          "type": "Suite",
+          "pricePerNight": 6900,
+          "availability": false,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/empire-state-building-seen-from-apartment_23-2150897745.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/hotel_664434-5232.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-modern-bedroom-interior_1048-7303.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/hotel_664434-5096.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 4,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-21"
+        },
+        {
+          "reviewId": 2,
+          "rating": 5,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-28"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "The rooms were clean and spacious.",
+          "date": "2025-04-14"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-19"
+        },
+        {
+          "reviewId": 5,
+          "rating": 5,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-12"
+        },
+        {
+          "reviewId": 6,
+          "rating": 5,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-10"
+        },
+        {
+          "reviewId": 7,
+          "rating": 5,
+          "comment": "Great value for the price.",
+          "date": "2025-04-27"
+        },
+        {
+          "reviewId": 8,
+          "rating": 3,
+          "comment": "The rooms were clean and spacious.",
+          "date": "2025-04-27"
+        },
+        {
+          "reviewId": 9,
+          "rating": 4,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-04"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Hotel L12",
+      "location": "Srimangal",
+      "latitude": 24.309075520097718,
+      "longitude": 91.7383508024995,
+      "rating": 4.5,
+      "amenities": [
+        "Swimming Pool",
+        "Eco Tours",
+        "Gym",
+        "Beach Access",
+        "Breakfast Included"
+      ],
+      "hotelImages": [
+        "https://novemecoresort.com/wp-content/uploads/2018/12/3.jpg",
+        "https://q-xx.bstatic.com/xdata/images/hotel/max500/420912524.jpg?k=bdd5a8ad7853171fb624a379aa54f41e653896b5f732e84938020ccb58b2924a&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/639707670.jpg?k=d8da3a9b4a9f0e25ff7e760e23a2769efb44ff2575800f3826b21bb75689a1f2&o=&hp=1"
+      ],
+      "totalAvailableOccupancy": 7,
+      "rooms": [
+        {
+          "roomId": 1200,
+          "type": "Standard Room",
+          "pricePerNight": 3100,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/luxury-bedroom-interior-sleek-highrise-building-overlooking-glittering-city-skyline_1189966-1422.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/3d-rendering-modern-luxury-bedroom-suite-bathroom_105762-1146.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/elegant-modern-luxurious-hotel-room-romantic-date_756748-23048.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/modern-beadroom-hotel_1150-17926.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        },
+        {
+          "roomId": 1201,
+          "type": "Deluxe Room",
+          "pricePerNight": 5100,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-yellow-bedroom-suite-hotel-with-tv-couch_105762-2272.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/empire-state-building-seen-from-apartment_23-2150897723.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-luxury-bedroom-suite-hotel-with-tv-cabinet-wardrobe_105762-2292.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://media.istockphoto.com/id/1399065846/photo/3d-render-hotel-room-interior.jpg?b=1&s=612x612&w=0&k=20&c=P8gP1O9QpjX_Bz3KnzoWSt02rh95UooxSA529CGiSdA="
+          ]
+        },
+        {
+          "roomId": 1202,
+          "type": "Suite",
+          "pricePerNight": 7100,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/sofa-collection_1197721-93591.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/bed-pillow-luxury-hotel_74190-1214.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-suite-hotel-with-working-table-near-bathroom_105762-1874.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-dark-wood-european-classic-bedroom-suite-hotel_105762-2164.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-01"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Clean, quiet, and close to all attractions.",
+          "date": "2025-04-28"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 5,
+          "rating": 5,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-25"
+        },
+        {
+          "reviewId": 6,
+          "rating": 3,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 7,
+          "rating": 5,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-01"
+        },
+        {
+          "reviewId": 8,
+          "rating": 3,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-23"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Hotel M13",
+      "location": "Srimangal",
+      "latitude": 24.301379918319302,
+      "longitude": 91.72634723742482,
+      "rating": 4.7,
+      "amenities": [
+        "Breakfast Included",
+        "Gym",
+        "Room Service",
+        "Beach Access",
+        "Swimming Pool",
+        "WiFi"
+      ],
+      "hotelImages": [
+        "https://resortsbd.com/upload/resort/1686562802_resort_image1.jpg",
+        "https://r1imghtlak.mmtcdn.com/7871862487d411ea9dce0242ac110002.jpg",
+        "https://www.shutterstock.com/shutterstock/photos/2335801547/display_1500/stock-photo-a-beautiful-eco-resort-nearby-sundarban-bangladesh-2335801547.jpg"
+      ],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 1300,
+          "type": "Standard Room",
+          "pricePerNight": 3200,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
+            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
+            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+          ]
+        },
+        {
+          "roomId": 1301,
+          "type": "Deluxe Room",
+          "pricePerNight": 5200,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/modern-design-bedroom-with-large-white-bed-stool-with-dressing-table-nearby-dark-walls-light-furniture-white-marble-floor-3d-rendering_295714-2815.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/lavish-guest-suite-with-plush-king-sized-bed-elegant-decor-relaxation_975188-270052.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-suite-with-city-view_1310085-93762.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+          ]
+        },
+        {
+          "roomId": 1302,
+          "type": "Suite",
+          "pricePerNight": 7200,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/luxury-bedroom-suite-hotel-with-tv-working-table_105762-1923.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/suite-bedroom-sleep-pillows-home_1203-4103.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/spacious-room-with-wooden-table_1203-1489.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/3d-rendering-modern-luxury-bedroom-suite-bathroom_105762-1029.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-26"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-09"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-17"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-09"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Great value for the price.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 6,
+          "rating": 3,
+          "comment": "Great value for the price.",
+          "date": "2025-04-16"
+        },
+        {
+          "reviewId": 7,
+          "rating": 5,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-15"
+        },
+        {
+          "reviewId": 8,
+          "rating": 3,
+          "comment": "Clean, quiet, and close to all attractions.",
+          "date": "2025-04-21"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Hotel N14",
+      "location": "Sundarbans",
+      "latitude": 22.01451773791542,
+      "longitude": 89.19083555413405,
+      "rating": 3.8,
+      "amenities": [
+        "Room Service",
+        "Beach Access",
+        "WiFi",
+        "Breakfast Included",
+        "Restaurant",
+        "Swimming Pool"
+      ],
+      "hotelImages": [
+        "https://middleeastevents.com/blog/wp-content/uploads/2017/08/Palazzo-Versace-Dubai-UAE-pool-view.jpg",
+        "https://w0.peakpx.com/wallpaper/367/720/HD-wallpaper-luxury-house-amazing-architecture-home.jpg",
+        "https://legendproperties.net/wp-content/uploads/2024/05/Most-Expensive-Homes-in-US.webp"
+      ],
+      "totalAvailableOccupancy": 7,
+      "rooms": [
+        {
+          "roomId": 1400,
+          "type": "Standard Room",
+          "pricePerNight": 3300,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv-chandelier_105762-2156.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/high-angle-shot-bedroom-with-interior-stuff-beige-tones_181624-33128.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/bedroom-with-two-beds-lamp-wall_889227-9371.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxurious-interior-very-expensive-rich-water-villa-maldives-decorated-with-natural-wood_267786-1945.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+          ]
+        },
+        {
+          "roomId": 1401,
+          "type": "Deluxe Room",
+          "pricePerNight": 5300,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/luxury-modern-style-bedroom-interior-hotel-bedroom-generative-ai-illustration_1258-151610.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-classic-interior-design_124907-3.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxurious-interior-very-expensive-rich-water-villa-maldives-decorated-with-natural-wood_267786-1935.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/white-pillow-bed_74190-3601.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        },
+        {
+          "roomId": 1402,
+          "type": "Suite",
+          "pricePerNight": 7300,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/luxurious-hotel-suite-with-elegant-decor_1287986-5735.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/faceless-man-looking-window-indoors_8353-12543.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-modern-bedroom-interior_1310085-57933.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxurious-bedroom-interior-rendered-4k-resolution_1189966-25893.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Great value for the price.",
+          "date": "2025-04-05"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-23"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-05"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Great value for the price.",
+          "date": "2025-04-24"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-22"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Hotel O15",
+      "location": "Khulna",
+      "latitude": 22.85023999466196,
+      "longitude": 89.54763533287291,
+      "rating": 4.9,
+      "amenities": [
+        "Gym",
+        "Restaurant",
+        "Swimming Pool",
+        "Breakfast Included"
+      ],
+      "hotelImages": [
+        "https://static.toiimg.com/thumb/msid-111756563,width-1280,height-720,resizemode-4/111756563.jpg",
+        "https://ewscripps.brightspotcdn.com/dims4/default/c6d7a28/2147483647/strip/true/crop/5444x3062+0+282/resize/1280x720!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F67%2F74%2F376d6cd6468fbc709f1756f07639%2F2738-carina-way-aerials-125.jpg",
+        "https://media.timeout.com/images/106054872/image.jpg"
+      ],
+      "totalAvailableOccupancy": 6,
+      "rooms": [
+        {
+          "roomId": 1500,
+          "type": "Standard Room",
+          "pricePerNight": 3400,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/3d-rendering-luxury-tropical-bedroom-suite-resort-hotel-resort_105762-1273.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/hotel-room-luxury-resort_53876-138105.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-bedroom-int_1203-2348.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/sample-rooms-supporting-equipment-displayed-highend-residential-areas_924611-2153.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        },
+        {
+          "roomId": 1501,
+          "type": "Deluxe Room",
+          "pricePerNight": 5400,
+          "availability": false,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/bed-with-canopy_1385-1800.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv-working-table_105762-2016.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/serene-asian-style-bedroom_1310085-52709.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/luxury-hotel-reception-hall-lounge-restaurant-with-high-ceiling_105762-1771.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        },
+        {
+          "roomId": 1502,
+          "type": "Suite",
+          "pricePerNight": 7400,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
+            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
+            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-12"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-14"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-25"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Great value for the price.",
+          "date": "2025-04-03"
+        },
+        {
+          "reviewId": 6,
+          "rating": 3,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-23"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Hotel P16",
+      "location": "Saint Martin",
+      "latitude": 20.624783659404546,
+      "longitude": 92.31457979037002,
+      "rating": 4.1,
+      "amenities": [
+        "Swimming Pool",
+        "WiFi",
+        "Room Service",
+        "Breakfast Included",
+        "Eco Tours",
+        "Restaurant"
+      ],
+      "hotelImages": [
+        "https://www.keyrealestates.com/cms/wp-content/uploads/2017/10/4.jpg",
+        "https://www.devooghthouselifters.com/wp-content/uploads/2020/07/beach-house-scaled.jpeg",
+        "https://images.rezfusion.com/?optimize=true&rotate=true&quality=70&width=1280&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/rentalsatthebeach/image/488e937a-6233-4c42-8cd2-0c3d42045719&settings=default"
+      ],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 1600,
+          "type": "Standard Room",
+          "pricePerNight": 3500,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/3d-rendering-luxury-modern-bedroom-suite-hotel-with-tv-cabinet_105762-2282.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/contemporary-living-room_1150-12613.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-living-room_1203-2721.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/spacious-room-with-bed_1203-633.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        },
+        {
+          "roomId": 1601,
+          "type": "Deluxe Room",
+          "pricePerNight": 5500,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-yellow-bedroom-suite-hotel-with-tv-couch_105762-2272.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/hotel_664434-4981.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/bedroom-interior-morning_91566-554.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/beautiful-modern-home-hotel-bedroom-interior-design_29285-1394.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        },
+        {
+          "roomId": 1602,
+          "type": "Suite",
+          "pricePerNight": 7500,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/view-lighting-device-with-futuristic-design_23-2151037534.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/luxury-hotel-bedroom-modern-design-comfortable-bedding-generated-by-ai_188544-16821.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-classic-modern-bedroom-suite-hotel-with-king-size-bed_105762-1794.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/white-pillow-bed_74190-3604.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-18"
+        },
+        {
+          "reviewId": 2,
+          "rating": 5,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-25"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-20"
+        },
+        {
+          "reviewId": 4,
+          "rating": 3,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-21"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-27"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Hotel Q17",
+      "location": "Khulna",
+      "latitude": 22.849236781785695,
+      "longitude": 89.53850514617,
+      "rating": 3.8,
+      "amenities": [
+        "Room Service",
+        "WiFi",
+        "Restaurant",
+        "Swimming Pool",
+        "Eco Tours",
+        "Breakfast Included"
+      ],
+      "hotelImages": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/303315943.jpg?k=e8b80e6e273ab744215eb5fce6c7d0b280cb96ca7f8876d25dc040fa7e35156b&o=&hp=1",
+        "https://ap-northeast-1.graphassets.com/clxzycdtd0940070z1zdr1q3g/cm7bf3tr24jur07144djbea1v",
+        ""
+      ],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 1700,
+          "type": "Standard Room",
+          "pricePerNight": 1000,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 1701,
+          "type": "Deluxe Room",
+          "pricePerNight": 1800,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 1702,
+          "type": "Suite",
+          "pricePerNight": 3350,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 4,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-04"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-15"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-01"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Clean, quiet, and close to all attractions.",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 6,
+          "rating": 5,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-21"
+        },
+        {
+          "reviewId": 7,
+          "rating": 3,
+          "comment": "Great value for the price.",
+          "date": "2025-04-06"
+        },
+        {
+          "reviewId": 8,
+          "rating": 3,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-25"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Hotel R18",
+      "location": "Saint Martin",
+      "latitude": 20.628692342369384,
+      "longitude": 92.32899028294517,
+      "rating": 4.7,
+      "amenities": [
+        "Swimming Pool",
+        "Restaurant",
+        "WiFi",
+        "Room Service",
+        "Eco Tours"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 1800,
+          "type": "Standard Room",
+          "pricePerNight": 1900,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 1801,
+          "type": "Deluxe Room",
+          "pricePerNight": 4050,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 1802,
+          "type": "Suite",
+          "pricePerNight": 6050,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-17"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-12"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-16"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-25"
+        },
+        {
+          "reviewId": 5,
+          "rating": 5,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-16"
+        },
+        {
+          "reviewId": 6,
+          "rating": 3,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-01"
+        },
+        {
+          "reviewId": 7,
+          "rating": 3,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-24"
+        },
+        {
+          "reviewId": 8,
+          "rating": 5,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 9,
+          "rating": 3,
+          "comment": "Great value for the price.",
+          "date": "2025-04-03"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Hotel S19",
+      "location": "Saint Martin",
+      "latitude": 20.63014592729001,
+      "longitude": 92.31373081753298,
+      "rating": 4.2,
+      "amenities": [
+        "WiFi",
+        "Beach Access",
+        "Eco Tours",
+        "Room Service",
+        "Swimming Pool",
+        "Gym"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 7,
+      "rooms": [
+        {
+          "roomId": 1900,
+          "type": "Standard Room",
+          "pricePerNight": 1200,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 1901,
+          "type": "Deluxe Room",
+          "pricePerNight": 1550,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 1902,
+          "type": "Suite",
+          "pricePerNight": 2850,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://mir-s3-cdn-cf.behance.net/project_modules/1400/29d33f141215185.624f4d9ecc269.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHia8-_f5b0TAw38X8tPo0ERTo3s1ovqXULj07KjN2MlHNNUWWirHXlpU5brqU-wA5BU&usqp=CAU",
+            "https://earthid.sg/wp-content/uploads/2020/03/Earth_Interior_Design-56_Anchorvale_Crescent_010-1024x683.jpg.webp",
+            "https://i.pinimg.com/236x/e8/03/6f/e8036fca7dd9b34e154adb9338751546.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-09"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-18"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-05"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-22"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Hotel T20",
+      "location": "Rangamati",
+      "latitude": 22.73889507385557,
+      "longitude": 92.305891398249,
+      "rating": 3.9,
+      "amenities": [
+        "Beach Access",
+        "Gym",
+        "Eco Tours",
+        "Restaurant",
+        "Swimming Pool",
+        "Breakfast Included"
+      ],
+      "hotelImages": [
+        "https://www.hospitalitynet.org/picture/xxl_153096081.jpg?t=1545224667"
+      ],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 2000,
+          "type": "Standard Room",
+          "pricePerNight": 2550,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 2001,
+          "type": "Deluxe Room",
+          "pricePerNight": 3050,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 2002,
+          "type": "Suite",
+          "pricePerNight": 7050,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-03"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-25"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-19"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-25"
+        },
+        {
+          "reviewId": 5,
+          "rating": 5,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-12"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-21"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Hotel U21",
+      "location": "Cox's Bazar",
+      "latitude": 21.43570749162017,
+      "longitude": 92.01065619058626,
+      "rating": 3.7,
+      "amenities": [
+        "Breakfast Included",
+        "WiFi",
+        "Restaurant",
+        "Gym",
+        "Beach Access"
+      ],
+      "hotelImages": [
+        "https://cdn.asdfinc.io/media/30776/the-benson-hotel-and-faculty-clubdji_0154-1.jpg?anchor=center&mode=crop&width=1920&height=1080&rnd=133527397190000000&quality=75"
+      ],
+      "totalAvailableOccupancy": 7,
+      "rooms": [
+        {
+          "roomId": 2100,
+          "type": "Standard Room",
+          "pricePerNight": 3450,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 2101,
+          "type": "Deluxe Room",
+          "pricePerNight": 3950,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 2102,
+          "type": "Suite",
+          "pricePerNight": 6880,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Clean, quiet, and close to all attractions.",
+          "date": "2025-04-13"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Clean, quiet, and close to all attractions.",
+          "date": "2025-04-06"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Great value for the price.",
+          "date": "2025-04-06"
+        },
+        {
+          "reviewId": 4,
+          "rating": 3,
+          "comment": "Clean, quiet, and close to all attractions.",
+          "date": "2025-04-24"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-14"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 7,
+          "rating": 4,
+          "comment": "The rooms were clean and spacious.",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 8,
+          "rating": 4,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 9,
+          "rating": 3,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-27"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Hotel V22",
+      "location": "Sundarbans",
+      "latitude": 22.005741570459843,
+      "longitude": 89.18674551536634,
+      "rating": 4.4,
+      "amenities": [
+        "Swimming Pool",
+        "WiFi",
+        "Eco Tours",
+        "Beach Access"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 3,
+      "rooms": [
+        {
+          "roomId": 2200,
+          "type": "Standard Room",
+          "pricePerNight": 3150,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 2201,
+          "type": "Deluxe Room",
+          "pricePerNight": 4580,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 2202,
+          "type": "Suite",
+          "pricePerNight": 8000,
+          "availability": false,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-27"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-12"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-18"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-13"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-24"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-12"
+        },
+        {
+          "reviewId": 7,
+          "rating": 4,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-24"
+        },
+        {
+          "reviewId": 8,
+          "rating": 4,
+          "comment": "Great value for the price.",
+          "date": "2025-04-23"
+        },
+        {
+          "reviewId": 9,
+          "rating": 5,
+          "comment": "The rooms were clean and spacious.",
+          "date": "2025-04-05"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Hotel W23",
+      "location": "Saint Martin",
+      "latitude": 20.628498866517003,
+      "longitude": 92.33158697708687,
+      "rating": 4.4,
+      "amenities": [
+        "Breakfast Included",
+        "WiFi",
+        "Room Service",
+        "Restaurant",
+        "Beach Access"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 2300,
+          "type": "Standard Room",
+          "pricePerNight": 3250,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 2301,
+          "type": "Deluxe Room",
+          "pricePerNight": 4250,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 2302,
+          "type": "Suite",
+          "pricePerNight": 7880,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 4,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-04"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-25"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-10"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-07"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-03"
+        },
+        {
+          "reviewId": 6,
+          "rating": 3,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-09"
+        },
+        {
+          "reviewId": 7,
+          "rating": 5,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-03"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Hotel X24",
+      "location": "Paharpur",
+      "latitude": 25.025717603081173,
+      "longitude": 89.02706406853508,
+      "rating": 4.4,
+      "amenities": [
+        "Room Service",
+        "Beach Access",
+        "Eco Tours",
+        "Swimming Pool",
+        "WiFi",
+        "Restaurant"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 0,
+      "rooms": [
+        {
+          "roomId": 2400,
+          "type": "Standard Room",
+          "pricePerNight": 1580,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/3d-rendering-luxury-modern-bedroom-suite-hotel-with-tv-cabinet_105762-2282.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+                  "https://img.freepik.com/free-photo/contemporary-living-room_1150-12613.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+                  "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-living-room_1203-2721.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+                  "https://img.freepik.com/free-photo/spacious-room-with-bed_1203-633.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+      
+          ]
+        },
+        {
+          "roomId": 2401,
+          "type": "Deluxe Room",
+          "pricePerNight": 3650,
+          "availability": false,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
+            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
+            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+          ]
+        },
+        {
+          "roomId": 2402,
+          "type": "Suite",
+          "pricePerNight": 5550,
+          "availability": false,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-yellow-bedroom-suite-hotel-with-tv-couch_105762-2272.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/hotel_664434-4981.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/bedroom-interior-morning_91566-554.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/beautiful-modern-home-hotel-bedroom-interior-design_29285-1394.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+      
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-17"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Great value for the price.",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 4,
+          "rating": 3,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-07"
+        },
+        {
+          "reviewId": 5,
+          "rating": 5,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-14"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-27"
+        },
+        {
+          "reviewId": 7,
+          "rating": 3,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-16"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Hotel Y25",
+      "location": "Rangamati",
+      "latitude": 22.735807622331937,
+      "longitude": 92.30050867305647,
+      "rating": 3.6,
+      "amenities": [
+        "WiFi",
+        "Breakfast Included",
+        "Gym",
+        "Eco Tours"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 2500,
+          "type": "Standard Room",
+          "pricePerNight": 2560,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 2501,
+          "type": "Deluxe Room",
+          "pricePerNight": 4080,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 2502,
+          "type": "Suite",
+          "pricePerNight": 8100,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-17"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "The rooms were clean and spacious.",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-18"
+        },
+        {
+          "reviewId": 4,
+          "rating": 3,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-13"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-06"
+        },
+        {
+          "reviewId": 6,
+          "rating": 5,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-12"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Hotel @26",
+      "location": "Sundarbans",
+      "latitude": 22.020222502219845,
+      "longitude": 89.181710913516,
+      "rating": 4.7,
+      "amenities": [
+        "Beach Access",
+        "Room Service",
+        "Swimming Pool",
+        "Restaurant"
+      ],
+      "hotelImages": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-",
+        "https://images.pexels.com/photos/14488909/pexels-photo-14488909.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/30664967/pexels-photo-30664967/free-photo-of-dubai-modern-skyscraper-with-unique-design.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      ],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 2600,
+          "type": "Standard Room",
+          "pricePerNight": 1100,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/3d-rendering-luxury-modern-bedroom-suite-hotel-with-tv-cabinet_105762-2282.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/contemporary-living-room_1150-12613.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-living-room_1203-2721.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/spacious-room-with-bed_1203-633.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+          ]
+        },
+        {
+          "roomId": 2601,
+          "type": "Deluxe Room",
+          "pricePerNight": 1700,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/view-lighting-device-with-futuristic-design_23-2151037534.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/luxury-hotel-bedroom-modern-design-comfortable-bedding-generated-by-ai_188544-16821.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-classic-modern-bedroom-suite-hotel-with-king-size-bed_105762-1794.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/white-pillow-bed_74190-3604.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+          ]
+        },
+        {
+          "roomId": 2602,
+          "type": "Suite",
+          "pricePerNight": 2550,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://mir-s3-cdn-cf.behance.net/project_modules/1400/29d33f141215185.624f4d9ecc269.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHia8-_f5b0TAw38X8tPo0ERTo3s1ovqXULj07KjN2MlHNNUWWirHXlpU5brqU-wA5BU&usqp=CAU",
+            "https://earthid.sg/wp-content/uploads/2020/03/Earth_Interior_Design-56_Anchorvale_Crescent_010-1024x683.jpg.webp",
+            "https://i.pinimg.com/236x/e8/03/6f/e8036fca7dd9b34e154adb9338751546.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-01"
+        },
+        {
+          "reviewId": 2,
+          "rating": 5,
+          "comment": "Great value for the price.",
+          "date": "2025-04-12"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-01"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-12"
+        },
+        {
+          "reviewId": 6,
+          "rating": 5,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-16"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Hotel A27",
+      "location": "Bandarban",
+      "latitude": 22.20240213236304,
+      "longitude": 92.21956650417852,
+      "rating": 4.1,
+      "amenities": [
+        "Room Service",
+        "WiFi",
+        "Breakfast Included",
+        "Beach Access",
+        "Swimming Pool"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 2700,
+          "type": "Standard Room",
+          "pricePerNight": 1300,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 2701,
+          "type": "Deluxe Room",
+          "pricePerNight": 3180,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 2702,
+          "type": "Suite",
+          "pricePerNight": 4570,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "The rooms were clean and spacious.",
+          "date": "2025-04-26"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-15"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-09"
+        },
+        {
+          "reviewId": 4,
+          "rating": 3,
+          "comment": "Clean, quiet, and close to all attractions.",
+          "date": "2025-04-13"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Great value for the price.",
+          "date": "2025-04-01"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-19"
+        },
+        {
+          "reviewId": 7,
+          "rating": 3,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-09"
+        },
+        {
+          "reviewId": 8,
+          "rating": 3,
+          "comment": "Clean, quiet, and close to all attractions.",
+          "date": "2025-04-12"
+        },
+        {
+          "reviewId": 9,
+          "rating": 5,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-10"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Hotel B28",
+      "location": "Sylhet",
+      "latitude": 24.888420297161122,
+      "longitude": 91.86005900116585,
+      "rating": 4.9,
+      "amenities": [
+        "Restaurant",
+        "Breakfast Included",
+        "Eco Tours",
+        "WiFi"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 6,
+      "rooms": [
+        {
+          "roomId": 2800,
+          "type": "Standard Room",
+          "pricePerNight": 1890,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 2801,
+          "type": "Deluxe Room",
+          "pricePerNight": 4090,
+          "availability": false,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 2802,
+          "type": "Suite",
+          "pricePerNight": 6090,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-15"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-26"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-07"
+        },
+        {
+          "reviewId": 4,
+          "rating": 3,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-23"
+        },
+        {
+          "reviewId": 5,
+          "rating": 5,
+          "comment": "The rooms were clean and spacious.",
+          "date": "2025-04-18"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "The rooms were clean and spacious.",
+          "date": "2025-04-19"
+        },
+        {
+          "reviewId": 7,
+          "rating": 3,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-06"
+        },
+        {
+          "reviewId": 8,
+          "rating": 4,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-10"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Hotel C29",
+      "location": "Sundarbans",
+      "latitude": 22.011416855779323,
+      "longitude": 89.1869554047812,
+      "rating": 4.7,
+      "amenities": [
+        "Beach Access",
+        "Eco Tours",
+        "Restaurant",
+        "Gym"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 2900,
+          "type": "Standard Room",
+          "pricePerNight": 800,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 2901,
+          "type": "Deluxe Room",
+          "pricePerNight": 1900,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 2902,
+          "type": "Suite",
+          "pricePerNight": 2500,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-04"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-18"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-01"
+        },
+        {
+          "reviewId": 4,
+          "rating": 3,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-19"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-03"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-23"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Hotel D30",
+      "location": "Cox's Bazar",
+      "latitude": 21.430401817757833,
+      "longitude": 92.01387118069934,
+      "rating": 4.6,
+      "amenities": [
+        "Beach Access",
+        "Eco Tours",
+        "WiFi",
+        "Restaurant",
+        "Room Service",
+        "Gym"
+      ],
+      "hotelImages": [
+        "https://asiahotel.com.bd/wp-content/uploads/asia-hotel-Exterior-photo-718x1024.jpg"
+      ],
+      "totalAvailableOccupancy": 5,
+      "rooms": [
+        {
+          "roomId": 3000,
+          "type": "Standard Room",
+          "pricePerNight": 2050,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 3001,
+          "type": "Deluxe Room",
+          "pricePerNight": 4180,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 3002,
+          "type": "Suite",
+          "pricePerNight": 6180,
+          "availability": false,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-24"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-13"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-03"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-04"
+        },
+        {
+          "reviewId": 7,
+          "rating": 4,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-05"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Hotel E31",
+      "location": "Mahasthangarh",
+      "latitude": 24.954239911155668,
+      "longitude": 89.36561253480197,
+      "rating": 4.9,
+      "amenities": [
+        "WiFi",
+        "Breakfast Included",
+        "Room Service",
+        "Eco Tours",
+        "Gym"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 2,
+      "rooms": [
+        {
+          "roomId": 3100,
+          "type": "Standard Room",
+          "pricePerNight": 1450,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://mir-s3-cdn-cf.behance.net/project_modules/1400/29d33f141215185.624f4d9ecc269.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHia8-_f5b0TAw38X8tPo0ERTo3s1ovqXULj07KjN2MlHNNUWWirHXlpU5brqU-wA5BU&usqp=CAU",
+            "https://earthid.sg/wp-content/uploads/2020/03/Earth_Interior_Design-56_Anchorvale_Crescent_010-1024x683.jpg.webp",
+            "https://i.pinimg.com/236x/e8/03/6f/e8036fca7dd9b34e154adb9338751546.jpg"
+          ]
+        },
+        {
+          "roomId": 3101,
+          "type": "Deluxe Room",
+          "pricePerNight": 5100,
+          "availability": false,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 3102,
+          "type": "Suite",
+          "pricePerNight": 8200,
+          "availability": false,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-23"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-07"
+        },
+        {
+          "reviewId": 4,
+          "rating": 3,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-14"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 6,
+          "rating": 5,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-19"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Hotel F32",
+      "location": "Mahasthangarh",
+      "latitude": 24.962511878525458,
+      "longitude": 89.37486049242143,
+      "rating": 4.4,
+      "amenities": [
+        "Swimming Pool",
+        "WiFi",
+        "Beach Access",
+        "Room Service"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 3200,
+          "type": "Standard Room",
+          "pricePerNight": 2350,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 3201,
+          "type": "Deluxe Room",
+          "pricePerNight": 4170,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 3202,
+          "type": "Suite",
+          "pricePerNight": 5780,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-13"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-27"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-23"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-06"
+        },
+        {
+          "reviewId": 6,
+          "rating": 5,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-18"
+        },
+        {
+          "reviewId": 7,
+          "rating": 4,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-10"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Hotel G33",
+      "location": "Paharpur",
+      "latitude": 25.02854314935352,
+      "longitude": 89.02617121389457,
+      "rating": 4.3,
+      "amenities": [
+        "WiFi",
+        "Gym",
+        "Breakfast Included",
+        "Eco Tours",
+        "Swimming Pool"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 2,
+      "rooms": [
+        {
+          "roomId": 3300,
+          "type": "Standard Room",
+          "pricePerNight": 2950,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 3301,
+          "type": "Deluxe Room",
+          "pricePerNight": 5790,
+          "availability": false,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 3302,
+          "type": "Suite",
+          "pricePerNight": 8500,
+          "availability": false,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 2,
+          "rating": 5,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-23"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-25"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Great value for the price.",
+          "date": "2025-04-21"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-25"
+        },
+        {
+          "reviewId": 6,
+          "rating": 3,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-07"
+        },
+        {
+          "reviewId": 7,
+          "rating": 3,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-28"
+        },
+        {
+          "reviewId": 8,
+          "rating": 5,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-09"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Hotel H34",
+      "location": "Paharpur",
+      "latitude": 25.024564466765753,
+      "longitude": 89.01510140690776,
+      "rating": 4.9,
+      "amenities": [
+        "Breakfast Included",
+        "Restaurant",
+        "Gym",
+        "Room Service"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 7,
+      "rooms": [
+        {
+          "roomId": 3400,
+          "type": "Standard Room",
+          "pricePerNight": 3550,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 3401,
+          "type": "Deluxe Room",
+          "pricePerNight":5980,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
+            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
+            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+          ]
+        },
+        {
+          "roomId": 3402,
+          "type": "Suite",
+          "pricePerNight": 7999,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-05"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-12"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-28"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Great value for the price.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 6,
+          "rating": 5,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-25"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Hotel I35",
+      "location": "Sylhet",
+      "latitude": 24.899097412117484,
+      "longitude": 91.8595395204173,
+      "rating": 4.2,
+      "amenities": [
+        "Restaurant",
+        "Beach Access",
+        "Gym",
+        "WiFi"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 3500,
+          "type": "Standard Room",
+          "pricePerNight": 2999,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 3501,
+          "type": "Deluxe Room",
+          "pricePerNight": 3999,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 3502,
+          "type": "Suite",
+          "pricePerNight": 5999,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-19"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-28"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-07"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-06"
+        },
+        {
+          "reviewId": 5,
+          "rating": 5,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-28"
+        },
+        {
+          "reviewId": 7,
+          "rating": 3,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-11"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Hotel J36",
+      "location": "Saint Martin",
+      "latitude": 20.6239000870453,
+      "longitude": 92.31421311010104,
+      "rating": 3.9,
+      "amenities": [
+        "Eco Tours",
+        "Room Service",
+        "Swimming Pool",
+        "Beach Access",
+        "Gym",
+        "WiFi"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 3600,
+          "type": "Standard Room",
+          "pricePerNight": 2199,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 3601,
+          "type": "Deluxe Room",
+          "pricePerNight": 3199,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 3602,
+          "type": "Suite",
+          "pricePerNight": 4199,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 2,
+          "rating": 5,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-14"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-13"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-03"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-09"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-07"
+        },
+        {
+          "reviewId": 7,
+          "rating": 3,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-16"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Hotel K37",
+      "location": "Paharpur",
+      "latitude": 25.03730735853536,
+      "longitude": 89.01637609233396,
+      "rating": 4.3,
+      "amenities": [
+        "WiFi",
+        "Eco Tours",
+        "Beach Access",
+        "Restaurant",
+        "Gym"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 4,
+      "rooms": [
+        {
+          "roomId": 3700,
+          "type": "Standard Room",
+          "pricePerNight": 899,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 3701,
+          "type": "Deluxe Room",
+          "pricePerNight": 1999,
+          "availability": false,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 3702,
+          "type": "Suite",
+          "pricePerNight": 2999,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://mir-s3-cdn-cf.behance.net/project_modules/1400/29d33f141215185.624f4d9ecc269.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHia8-_f5b0TAw38X8tPo0ERTo3s1ovqXULj07KjN2MlHNNUWWirHXlpU5brqU-wA5BU&usqp=CAU",
+            "https://earthid.sg/wp-content/uploads/2020/03/Earth_Interior_Design-56_Anchorvale_Crescent_010-1024x683.jpg.webp",
+            "https://i.pinimg.com/236x/e8/03/6f/e8036fca7dd9b34e154adb9338751546.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 4,
+          "comment": "The rooms were clean and spacious.",
+          "date": "2025-04-28"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-28"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-18"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-24"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-19"
+        },
+        {
+          "reviewId": 7,
+          "rating": 5,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-01"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Hotel L38",
+      "location": "Cox's Bazar",
+      "latitude": 21.42554561650087,
+      "longitude": 92.01142327849934,
+      "rating": 4.6,
+      "amenities": [
+        "Restaurant",
+        "WiFi",
+        "Gym",
+        "Eco Tours",
+        "Swimming Pool"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 7,
+      "rooms": [
+        {
+          "roomId": 3800,
+          "type": "Standard Room",
+          "pricePerNight": 999,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 3801,
+          "type": "Deluxe Room",
+          "pricePerNight": 1399,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 3802,
+          "type": "Suite",
+          "pricePerNight": 4999,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-23"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "Clean, quiet, and close to all attractions.",
+          "date": "2025-04-05"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 6,
+          "rating": 5,
+          "comment": "The rooms were clean and spacious.",
+          "date": "2025-04-21"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Hotel M39",
+      "location": "Paharpur",
+      "latitude": 25.03910606589396,
+      "longitude": 89.00964110754973,
+      "rating": 3.5,
+      "amenities": [
+        "Room Service",
+        "Restaurant",
+        "Swimming Pool",
+        "Beach Access",
+        "WiFi"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 3900,
+          "type": "Standard Room",
+          "pricePerNight": 799,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://example.com/rooms/room6_1.jpg",
+            "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
+            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
+            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+          ]
+        },
+        {
+          "roomId": 3901,
+          "type": "Deluxe Room",
+          "pricePerNight": 1499,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 3902,
+          "type": "Suite",
+          "pricePerNight": 7990,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-03"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-24"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "Great value for the price.",
+          "date": "2025-04-03"
+        },
+        {
+          "reviewId": 5,
+          "rating": 5,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-01"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-23"
+        },
+        {
+          "reviewId": 7,
+          "rating": 4,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-26"
+        },
+        {
+          "reviewId": 8,
+          "rating": 5,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-15"
+        },
+        {
+          "reviewId": 9,
+          "rating": 3,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-15"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Hotel N40",
+      "location": "Khulna",
+      "latitude": 22.84832498719124,
+      "longitude": 89.54333913539884,
+      "rating": 5.0,
+      "amenities": [
+        "WiFi",
+        "Room Service",
+        "Swimming Pool",
+        "Eco Tours",
+        "Gym",
+        "Restaurant"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 4,
+      "rooms": [
+        {
+          "roomId": 4000,
+          "type": "Standard Room",
+          "pricePerNight": 3799,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 4001,
+          "type": "Deluxe Room",
+          "pricePerNight": 4899,
+          "availability": false,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 4002,
+          "type": "Suite",
+          "pricePerNight": 5490,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-26"
+        },
+        {
+          "reviewId": 2,
+          "rating": 5,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-20"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-24"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-26"
+        },
+        {
+          "reviewId": 5,
+          "rating": 5,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-07"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-28"
+        },
+        {
+          "reviewId": 7,
+          "rating": 3,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-10"
+        },
+        {
+          "reviewId": 8,
+          "rating": 4,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-22"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Hotel O41",
+      "location": "Sylhet",
+      "latitude": 24.891267528405457,
+      "longitude": 91.86394962701712,
+      "rating": 3.5,
+      "amenities": [
+        "Beach Access",
+        "Gym",
+        "WiFi",
+        "Swimming Pool",
+        "Eco Tours",
+        "Restaurant"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 5,
+      "rooms": [
+        {
+          "roomId": 4100,
+          "type": "Standard Room",
+          "pricePerNight": 2599,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
+            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
+            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+          ]
+        },
+        {
+          "roomId": 4101,
+          "type": "Deluxe Room",
+          "pricePerNight": 2888,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 4102,
+          "type": "Suite",
+          "pricePerNight": 6777,
+          "availability": false,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-26"
+        },
+        {
+          "reviewId": 2,
+          "rating": 5,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-12"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 5,
+          "rating": 5,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-14"
+        },
+        {
+          "reviewId": 6,
+          "rating": 5,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-24"
+        },
+        {
+          "reviewId": 7,
+          "rating": 3,
+          "comment": "The rooms were clean and spacious.",
+          "date": "2025-04-27"
+        },
+        {
+          "reviewId": 8,
+          "rating": 3,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-08"
+        },
+        {
+          "reviewId": 9,
+          "rating": 3,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-04"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Hotel P42",
+      "location": "Cox's Bazar",
+      "latitude": 21.420867777640662,
+      "longitude": 92.00289999844381,
+      "rating": 4.4,
+      "amenities": [
+        "Breakfast Included",
+        "Restaurant",
+        "Eco Tours",
+        "WiFi"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 7,
+      "rooms": [
+        {
+          "roomId": 4200,
+          "type": "Standard Room",
+          "pricePerNight": 2740,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": []
+        },
+        {
+          "roomId": 4201,
+          "type": "Deluxe Room",
+          "pricePerNight": 3740,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": []
+        },
+        {
+          "roomId": 4202,
+          "type": "Suite",
+          "pricePerNight": 5740,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": []
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 4,
+          "comment": "The rooms were clean and spacious.",
+          "date": "2025-04-15"
+        },
+        {
+          "reviewId": 2,
+          "rating": 5,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-15"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-18"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-14"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Hotel Q43",
+      "location": "Sylhet",
+      "latitude": 24.90484242862546,
+      "longitude": 91.86856591155033,
+      "rating": 4.8,
+      "amenities": [
+        "Swimming Pool",
+        "Room Service",
+        "Gym",
+        "WiFi",
+        "Breakfast Included"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 5,
+      "rooms": [
+        {
+          "roomId": 4300,
+          "type": "Standard Room",
+          "pricePerNight": 1880,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://mir-s3-cdn-cf.behance.net/project_modules/1400/29d33f141215185.624f4d9ecc269.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHia8-_f5b0TAw38X8tPo0ERTo3s1ovqXULj07KjN2MlHNNUWWirHXlpU5brqU-wA5BU&usqp=CAU",
+            "https://earthid.sg/wp-content/uploads/2020/03/Earth_Interior_Design-56_Anchorvale_Crescent_010-1024x683.jpg.webp",
+            "https://i.pinimg.com/236x/e8/03/6f/e8036fca7dd9b34e154adb9338751546.jpg"
+          ]
+        },
+        {
+          "roomId": 4301,
+          "type": "Deluxe Room",
+          "pricePerNight": 3899,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-room-with-bed-warm-light-classic-europe-style_24637-613.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-bedroom_124907-427.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-modern-luxury-bedroom-suite-bathroom_105762-1936.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+          ]
+        },
+        {
+          "roomId": 4302,
+          "type": "Suite",
+          "pricePerNight": 9000,
+          "availability": false,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://geekspin.co/wp-content/uploads/2021/07/Can-you-rent-a-hotel-for-a-few-hours.jpg",
+            "https://img.freepik.com/free-photo/modern-studio-apartment-design-with-bedroom-living-space_1262-12375.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/luxury-bedroom-hotel_1150-10836.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/hotel-room-interior-with-bedroom-area-living-space-kitchen_1262-12288.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Clean, quiet, and close to all attractions.",
+          "date": "2025-04-09"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-17"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Great value for the price.",
+          "date": "2025-04-19"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-19"
+        },
+        {
+          "reviewId": 6,
+          "rating": 3,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-14"
+        },
+        {
+          "reviewId": 7,
+          "rating": 4,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-24"
+        },
+        {
+          "reviewId": 8,
+          "rating": 3,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-20"
+        },
+        {
+          "reviewId": 9,
+          "rating": 3,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-11"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Hotel R44",
+      "location": "Sylhet",
+      "latitude": 24.89394847949284,
+      "longitude": 91.87134984183247,
+      "rating": 4.9,
+      "amenities": [
+        "Swimming Pool",
+        "Gym",
+        "Room Service",
+        "Beach Access"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 4400,
+          "type": "Standard Room",
+          "pricePerNight": 3550,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
+            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
+            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+          ]
+        },
+        {
+          "roomId": 4401,
+          "type": "Deluxe Room",
+          "pricePerNight": 5800,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://sthotelsmalta.com/wp-content/uploads/2022/06/modern-luxury-bedroom-suite-and-bathroom-with-working-table-scaled.jpg",
+            "https://static.vecteezy.com/system/resources/previews/027/940/500/large_2x/contemporary-hotel-room-design-free-photo.jpg",
+            "https://hoteldesigns.net/wp-content/uploads/2017/05/Beacon2.jpg",
+            "https://vwartclub.com/media/projects/3322/1.jpg"
+          ]
+        },
+        {
+          "roomId": 4402,
+          "type": "Suite",
+          "pricePerNight": 9100,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://www.lovehappensmag.com/blog/wp-content/uploads/2019/03/WhatsApp-Image-2019-03-25-at-11.29.16-AM-7-1-1024x768.jpeg",
+            "https://www.juliettesinteriors.co.uk/wp-content/uploads/2022/07/cover-blog.jpg",
+            "https://expressinnindia.com/wp-content/uploads/2024/07/Freesia-God-23.jpg",
+            "https://expressinnindia.com/wp-content/uploads/2024/07/Freesia-God-25.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-07"
+        },
+        {
+          "reviewId": 2,
+          "rating": 3,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-19"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-23"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "Great value for the price.",
+          "date": "2025-04-03"
+        },
+        {
+          "reviewId": 7,
+          "rating": 4,
+          "comment": "Staff were extremely helpful and professional.",
+          "date": "2025-04-13"
+        },
+        {
+          "reviewId": 8,
+          "rating": 3,
+          "comment": "Clean, quiet, and close to all attractions.",
+          "date": "2025-04-02"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Hotel S45",
+      "location": "Saint Martin",
+      "latitude": 20.62960144734457,
+      "longitude": 92.31344827109889,
+      "rating": 4.0,
+      "amenities": [
+        "Beach Access",
+        "Room Service",
+        "Swimming Pool",
+        "Gym",
+        "WiFi"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 4500,
+          "type": "Standard Room",
+          "pricePerNight": 750,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://hips.hearstapps.com/hmg-prod/images/alchemist-king-bed-plush-tumeric-2021-pr-portrait-4-1644309854.jpg",
+            "https://st.hzcdn.com/simgs/pictures/bedrooms/mallin-cres-master-bedroom-atmosphere-interior-design-inc-img~90015ec60f317dc0_14-1361-1-f0e261a.jpg",
+            "https://basichomediy.com/wp-content/uploads/2024/06/hotel-vibe-bedroom-side-tables.png",
+            "https://cdn.mos.cms.futurecdn.net/KgSsC5SMHCBP7PxgtydLGa.jpg"
+          ]
+        },
+        {
+          "roomId": 4501,
+          "type": "Deluxe Room",
+          "pricePerNight": 2470,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://hips.hearstapps.com/hmg-prod/images/shoreditch-sofabed-kingsize-heron-weave-natural-lifestyle-str-1644170454.jpg",
+            "https://hips.hearstapps.com/hmg-prod/images/gabrielle-superking-bed-sparklepowder-gold-2021-social-square-02-1-1644278026.jpg",
+            "https://www.dowsingandreynolds.com/wp-content/uploads/2024/06/@emmagreendesign.webp",
+            "https://www.dowsingandreynolds.com/wp-content/uploads/2024/06/@kylejosephinteriors_8.webp"
+          ]
+        },
+        {
+          "roomId": 4502,
+          "type": "Suite",
+          "pricePerNight":5870,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://i.pinimg.com/736x/c1/2d/5f/c12d5f88623ff520a3d2591772e0ff16.jpg",
+            "https://i.digsdigs.com/modern-hotel-style-bedroom.jpg",
+            "https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2017/07/27163528/hotel-style-bedroom-ideas-double-layer-drapery.png",
+            "https://sinaholz.com/wp-content/uploads/2023/01/SONIA-3-min-scaled.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Great value for the price.",
+          "date": "2025-04-02"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-18"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-18"
+        },
+        {
+          "reviewId": 4,
+          "rating": 4,
+          "comment": "Great value for the price.",
+          "date": "2025-04-25"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-15"
+        },
+        {
+          "reviewId": 6,
+          "rating": 3,
+          "comment": "Food was delicious and well presented.",
+          "date": "2025-04-21"
+        },
+        {
+          "reviewId": 7,
+          "rating": 5,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-21"
+        },
+        {
+          "reviewId": 8,
+          "rating": 5,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-08"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Hotel T46",
+      "location": "Srimangal",
+      "latitude": 24.31277122612527,
+      "longitude": 91.73800828656556,
+      "rating": 4.8,
+      "amenities": [
+        "Beach Access",
+        "Swimming Pool",
+        "Room Service",
+        "WiFi",
+        "Gym",
+        "Restaurant"
+      ],
+      "hotelImages": [],
+      "totalAvailableOccupancy": 5,
+      "rooms": [
+        {
+          "roomId": 4600,
+          "type": "Standard Room",
+          "pricePerNight": 2199,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
+            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
+            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+          ]
+        },
+        {
+          "roomId": 4601,
+          "type": "Deluxe Room",
+          "pricePerNight": 4199,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://www.fivestaralliance.com/files/fsa/nodes/2009/11469/1672_0_conradbgk_fsa-g.jpg",
+            "https://www.carpentry.sg/wp-content/uploads/2023/12/Parc-Oasis-Condo-Renovation-Watermark-6.jpg",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.marriott.com%2Fen-us%2Fhotels%2Fdacmd-le-meridien-dhaka%2Foverview%2F&psig=AOvVaw1dXcPw0RyaXCcMKBh-z0MZ&ust=1746185128981000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiH4teUgo0DFQAAAAAdAAAAABBt",
+            "https://media-cdn.tripadvisor.com/media/photo-s/0e/7f/4b/5b/hotel-71-suite-room.jpg"
+          ]
+        },
+        {
+          "roomId": 4602,
+          "type": "Suite",
+          "pricePerNight": 6299,
+          "availability": false,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/05/b9/cb/sarah-resort.jpg?w=1200&h=-1&s=1",
+            "https://q-xx.bstatic.com/xdata/images/hotel/max400/457329929.jpg?k=d74ab2e667bd31927baa5bd12b1ab08f52df775b160b72881adadf8148fbbd60",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1000657523154808451/original/e95f08f6-b167-4cbd-811b-ff2fc3ad7d93.jpeg",
+            "https://i.pinimg.com/originals/44/5a/43/445a4349564dbe1e6a9fcfdcc3964d49.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-23"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-03"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-19"
+        },
+        {
+          "reviewId": 4,
+          "rating": 3,
+          "comment": "Great value for the price.",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-17"
+        },
+        {
+          "reviewId": 6,
+          "rating": 5,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-13"
+        },
+        {
+          "reviewId": 7,
+          "rating": 4,
+          "comment": "Great value for the price.",
+          "date": "2025-04-24"
+        },
+        {
+          "reviewId": 8,
+          "rating": 4,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-16"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Hotel U47",
+      "location": "Mahasthangarh",
+      "latitude": 24.966070285012076,
+      "longitude": 89.36410986651751,
+      "rating": 3.9,
+      "amenities": [
+        "WiFi",
+        "Gym",
+        "Eco Tours",
+        "Breakfast Included"
+      ],
+      "hotelImages": [
+
+      ],
+      "totalAvailableOccupancy": 9,
+      "rooms": [
+        {
+          "roomId": 4700,
+          "type": "Standard Room",
+          "pricePerNight": 2699,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://www.grandsultanresort.com/wp-content/uploads/2023/12/Untitled-design-_2_.webp",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/239640886.jpg?k=63354dd269772310522300d240bb4f06b9bb00bab7eec534578ae6ebba471c8d&o=&hp=1",
+            "https://www.grandsultanresort.com/wp-content/uploads/2023/12/RSD-2.jpg",
+            "https://cf.bstatic.com/xdata/images/hotel/square300/242939171.webp?k=62164c7c55a2a10877dceaa773eaa0aaf0b8fcf4ba71f9759ffc1a72b22cea19&o="
+          ]
+        },
+        {
+          "roomId": 4701,
+          "type": "Deluxe Room",
+          "pricePerNight": 6444,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://www.grandsultanresort.com/wp-content/uploads/2023/12/Untitled-design-_2_.webp",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/239640886.jpg?k=63354dd269772310522300d240bb4f06b9bb00bab7eec534578ae6ebba471c8d&o=&hp=1",
+            "https://www.grandsultanresort.com/wp-content/uploads/2023/12/RSD-2.jpg",
+            "https://cf.bstatic.com/xdata/images/hotel/square300/242939171.webp?k=62164c7c55a2a10877dceaa773eaa0aaf0b8fcf4ba71f9759ffc1a72b22cea19&o="
+          ]
+        },
+        {
+          "roomId": 4702,
+          "type": "Suite",
+          "pricePerNight": 7555,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://image.made-in-china.com/2f0j00ZRyfUpwrZgbd/Wooden-Material-Hotel-Hatil-Furniture-Bd-Picture.webp",
+            "https://image.made-in-china.com/2f0j00RwLkIPzBHDcH/5-Star-Hotel-Minimalist-TV-Cabinet-Bedroom-Set-Luxury-Hotel-Room-Furniture.webp",
+            "https://image.made-in-china.com/2f0j00brqfldoPAgcN/European-St-Regis-Hotel-Room-Furniture-4-5-Star-Hotel-Bed.webp",
+            "https://www.peninsula.com/en/-/media/images/new-york/03roomssuites/2024-refurbishment-rooms-and-suites/new-york_deluxe-room-2.jpg?mw=905&hash=58CAD2CCBA1B6A595CB001E1C445C980"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 5,
+          "comment": "Clean, quiet, and close to all attractions.",
+          "date": "2025-04-15"
+        },
+        {
+          "reviewId": 2,
+          "rating": 5,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-28"
+        },
+        {
+          "reviewId": 3,
+          "rating": 4,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-08"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "Amazing location with beautiful views.",
+          "date": "2025-04-15"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-01"
+        },
+        {
+          "reviewId": 6,
+          "rating": 4,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-13"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Hotel V48",
+      "location": "Khulna",
+      "latitude": 22.84960911229662,
+      "longitude": 89.54149874185775,
+      "rating": 4.6,
+      "amenities": [
+        "Beach Access",
+        "Breakfast Included",
+        "Eco Tours",
+        "Gym"
+      ],
+      "hotelImages": [
+        "https://media.istockphoto.com/id/187363337/photo/modern-hotel-building-in-summer.jpg?s=612x612&w=0&k=20&c=eRVDcadZTKs5t2K-CEeXT6DiJQ68Fnbs6u9F-0S_v8Q="
+      ],
+      "totalAvailableOccupancy": 5,
+      "rooms": [
+        {
+          "roomId": 4800,
+          "type": "Standard Room",
+          "pricePerNight": 2899,
+          "availability": true,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/0f/fd/49/executive-suite.jpg?w=1200&h=-1&s=1",
+            "https://images4.via.com/static/hotel/images/21/505620/505620_0_t.jpg",
+            "https://foto.hrsstatic.com/fotos/0/2/800/458/80/000000/http%3A%2F%2Ffoto-origin.hrsstatic.com%2Ffoto%2F0%2F5%2F2%2F3%2F052315%2F052315_z_9299525.jpg/tryxMYreFhi05HThN4qChA%3D%3D/1024%2C682/6/M_Hotel_Singapore-Singapore-Room-10-52315.jpg",
+            "https://hotel71.com.bd/asset/images/hr/lavish-double-hr1/lavish-double-3_hr1.jpg"
+          ]
+        },
+        {
+          "roomId": 4801,
+          "type": "Deluxe Room",
+          "pricePerNight": 8880,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://mir-s3-cdn-cf.behance.net/project_modules/1400/29d33f141215185.624f4d9ecc269.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHia8-_f5b0TAw38X8tPo0ERTo3s1ovqXULj07KjN2MlHNNUWWirHXlpU5brqU-wA5BU&usqp=CAU",
+            "https://earthid.sg/wp-content/uploads/2020/03/Earth_Interior_Design-56_Anchorvale_Crescent_010-1024x683.jpg.webp",
+            "https://i.pinimg.com/236x/e8/03/6f/e8036fca7dd9b34e154adb9338751546.jpg"
+          ]
+        },
+        {
+          "roomId": 4802,
+          "type": "Suite",
+          "pricePerNight": 10000,
+          "availability": false,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/0f/fd/49/executive-suite.jpg?w=1200&h=-1&s=1",
+            "https://images4.via.com/static/hotel/images/21/505620/505620_0_t.jpg",
+            "https://foto.hrsstatic.com/fotos/0/2/800/458/80/000000/http%3A%2F%2Ffoto-origin.hrsstatic.com%2Ffoto%2F0%2F5%2F2%2F3%2F052315%2F052315_z_9299525.jpg/tryxMYreFhi05HThN4qChA%3D%3D/1024%2C682/6/M_Hotel_Singapore-Singapore-Room-10-52315.jpg",
+            "https://hotel71.com.bd/asset/images/hr/lavish-double-hr1/lavish-double-3_hr1.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 4,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-14"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Great value for the price.",
+          "date": "2025-04-13"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-08"
+        },
+        {
+          "reviewId": 4,
+          "rating": 3,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-04"
+        },
+        {
+          "reviewId": 5,
+          "rating": 3,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-23"
+        },
+        {
+          "reviewId": 6,
+          "rating": 5,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-14"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Hotel W49",
+      "location": "Rangamati",
+      "latitude": 22.72692403600352,
+      "longitude": 92.30787230592816,
+      "rating": 3.8,
+      "amenities": [
+        "Eco Tours",
+        "Swimming Pool",
+        "Room Service",
+        "Breakfast Included",
+        "Beach Access"
+      ],
+      "hotelImages": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-"
+      ],
+      "totalAvailableOccupancy": 7,
+      "rooms": [
+        {
+          "roomId": 4900,
+          "type": "Standard Room",
+          "pricePerNight": 3750,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://www.luxurylifestylemag.co.uk/wp-content/uploads/2017/12/PV_Marcellus_2-109.jpg",
+            "https://www.rongininterior.com/images/gallery/living-room/contemporary-living-room-partition-design-actual.jpg",
+            "https://bdinterior.net/storage/2021/10/elegant-hotel-room-interior-design-in-Bangladesh-562x450.jpg",
+            "https://www.rongininterior.com/images/residential/master-bedroom.jpg"
+          ]
+        },
+        {
+          "roomId": 4901,
+          "type": "Deluxe Room",
+          "pricePerNight": 4950,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://cdn.mos.cms.futurecdn.net/dhfVvvK94X77PVLhWcesyW.jpg",
+            "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2016/9/27/2/CI_Alice-Cramer-luxury-hotel-room.jpg.rend.hgtvcom.1280.1280.85.suffix/1475020173718.webp",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBX3Snm7EmjRKp-p7vGzauXEjvWFG9vT0CRw&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRquvT-PE-NAYkUPf2vSStTpT-B-FRA9iVKuQ&s"
+          ]
+        },
+        {
+          "roomId": 4902,
+          "type": "Suite",
+          "pricePerNight": 11000,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGfJsoCRNplIz_6516sfUcGUHx9DVuhKjx8A&s",
+            "https://www.dereknielsen.com/wp-content/uploads/2023/05/AdobeStock_584909013.jpg",
+            "https://i.pinimg.com/736x/a3/f1/7d/a3f17df381f2c9fc3f0047a9922e80c4.jpg",
+            "https://images.squarespace-cdn.com/content/v1/5e71144d8da1b81296674412/1590259834531-KBIK0R8L9EHXYPNMUT4J/17.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "Fantastic customer service and fast check-in.",
+          "date": "2025-04-22"
+        },
+        {
+          "reviewId": 2,
+          "rating": 4,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-15"
+        },
+        {
+          "reviewId": 3,
+          "rating": 5,
+          "comment": "Perfect place for a family vacation.",
+          "date": "2025-04-10"
+        },
+        {
+          "reviewId": 4,
+          "rating": 3,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-15"
+        },
+        {
+          "reviewId": 5,
+          "rating": 4,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-25"
+        },
+        {
+          "reviewId": 6,
+          "rating": 3,
+          "comment": "Loved the amenities and the pool area.",
+          "date": "2025-04-20"
+        },
+        {
+          "reviewId": 7,
+          "rating": 5,
+          "comment": "Excellent service and friendly staff!",
+          "date": "2025-04-03"
+        },
+        {
+          "reviewId": 8,
+          "rating": 3,
+          "comment": "Very comfortable stay, highly recommended.",
+          "date": "2025-04-21"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Hotel X50",
+      "location": "Saint Martin",
+      "latitude": 20.63383913493964,
+      "longitude": 92.32200769612284,
+      "rating": 4.4,
+      "amenities": [
+        "Gym",
+        "Beach Access",
+        "Room Service",
+        "Breakfast Included",
+        "Restaurant"
+      ],
+      "hotelImages": [
+        "https://images.pexels.com/photos/14488909/pexels-photo-14488909.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      ],
+      "totalAvailableOccupancy": 7,
+      "rooms": [
+        {
+          "roomId": 5000,
+          "type": "Standard Room",
+          "pricePerNight": 3890,
+          "availability": false,
+          "maxOccupancy": 2,
+          "roomImages": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGfJsoCRNplIz_6516sfUcGUHx9DVuhKjx8A&s",
+            "https://www.dereknielsen.com/wp-content/uploads/2023/05/AdobeStock_584909013.jpg",
+            "https://i.pinimg.com/736x/a3/f1/7d/a3f17df381f2c9fc3f0047a9922e80c4.jpg",
+            "https://images.squarespace-cdn.com/content/v1/5e71144d8da1b81296674412/1590259834531-KBIK0R8L9EHXYPNMUT4J/17.jpg"
+          ]
+        },
+        {
+          "roomId": 5001,
+          "type": "Deluxe Room",
+          "pricePerNight": 4330,
+          "availability": true,
+          "maxOccupancy": 3,
+          "roomImages": [
+            "https://www.shutterstock.com/image-illustration/small-bedroom-wooden-wardrobe-3d-260nw-1208839480.jpg",
+            "https://hotelinteriors.com.au/wp-content/uploads/2020/11/Hotel-Interiors-resort-furniture-supplier.png",
+            "https://d1hy6t2xeg0mdl.cloudfront.net/image/616696/489059bbb5/700-width",
+            "https://www.oppeinhome.com/upload/image/product/thumb/20211009/white-grey-beige-modern-hotel-wood-grain1.jpg"
+          ]
+        },
+        {
+          "roomId": 5002,
+          "type": "Suite",
+          "pricePerNight": 6930,
+          "availability": true,
+          "maxOccupancy": 4,
+          "roomImages": [
+            "https://mir-s3-cdn-cf.behance.net/project_modules/1400/29d33f141215185.624f4d9ecc269.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHia8-_f5b0TAw38X8tPo0ERTo3s1ovqXULj07KjN2MlHNNUWWirHXlpU5brqU-wA5BU&usqp=CAU",
+            "https://earthid.sg/wp-content/uploads/2020/03/Earth_Interior_Design-56_Anchorvale_Crescent_010-1024x683.jpg.webp",
+            "https://i.pinimg.com/236x/e8/03/6f/e8036fca7dd9b34e154adb9338751546.jpg"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "reviewId": 1,
+          "rating": 3,
+          "comment": "The room had a stunning sea view!",
+          "date": "2025-04-01"
+        },
+        {
+          "reviewId": 2,
+          "rating": 5,
+          "comment": "One of the best hotel experiences I've had in Bangladesh.",
+          "date": "2025-04-13"
+        },
+        {
+          "reviewId": 3,
+          "rating": 3,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-11"
+        },
+        {
+          "reviewId": 4,
+          "rating": 5,
+          "comment": "Very relaxing environment and peaceful surroundings.",
+          "date": "2025-04-12"
+        },
+        {
+          "reviewId": 5,
+          "rating": 5,
+          "comment": "Will definitely come back again!",
+          "date": "2025-04-26"
+        }
+      ]
+    }
+  ]
+}

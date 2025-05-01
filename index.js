@@ -4,6 +4,7 @@ const app = express();
 require("dotenv").config();
 const axios = require("axios");
 const jwt = require("jsonwebtoken");
+const fs = require("fs").promises;
 
 const PORT = process.env.PORT || 5000;
 
@@ -122,6 +123,20 @@ app.delete("/users/:id", async (req, res) => {
   const result = await userCollection.deleteOne(query);
   res.send(result);
 }); //for clint side work video 68.5 from 6 munite
+
+//get all hotels
+// app.get("/hotels", async (req, res) => {
+//   const localResponse = { data: "./hotel_Data.json" };
+//   const result = await localResponse.find().toArray();
+//   res.send(result);
+// });
+
+app.get("/hotels", async (req, res) => {
+  const data = (await fs.readFile("./hotel_Data.json")).toString();
+  const hotels = JSON.parse(data); // Parse JSON data
+  res.send(hotels);
+});
+
 app.get("/", (_, res) => {
   res.send("server setup done");
 });
