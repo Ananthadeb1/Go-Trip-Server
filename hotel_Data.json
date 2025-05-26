@@ -2,7 +2,7 @@
   "hotels": [
     {
       "id": 1,
-      "name": "Hotel A1",
+      "name": "Hotel Windy Terrace",
       "location": "Sylhet",
       "latitude": 24.885461740965074,
       "longitude": 91.86440589866869,
@@ -25,10 +25,11 @@
           "availability": false,
           "maxOccupancy": 2,
           "roomImages": [
-            "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
-            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
-            "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
-            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+            "https://geekspin.co/wp-content/uploads/2021/07/Can-you-rent-a-hotel-for-a-few-hours.jpg",
+            "https://img.freepik.com/free-photo/modern-studio-apartment-design-with-bedroom-living-space_1262-12375.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/luxury-bedroom-hotel_1150-10836.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/hotel-room-interior-with-bedroom-area-living-space-kitchen_1262-12288.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+ 
           ]
         },
         {
@@ -99,7 +100,7 @@
     },
     {
       "id": 2,
-      "name": "Hotel B2",
+      "name": "Mermaid Beach Resort",
       "location": "Cox's Bazar",
       "latitude": 21.42679213521345,
       "longitude": 92.01458251901533,
@@ -216,7 +217,7 @@
     },
     {
       "id": 3,
-      "name": "Hotel C3",
+      "name": "Platinum Suites",
       "location": "Bandarban",
       "latitude": 22.195136329489134,
       "longitude": 92.22832284491851,
@@ -230,8 +231,6 @@
         "Beach Access"
       ],
       "hotelImages": [
-        "https://etimg.etb2bimg.com/thumb/msid-77977319,imgsize-302094,width-1200,height=765,overlay-ethospitality/hotels/ihg-signs-two-new-hotels-in-bangladesh.jpg",
-        
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZAS1IOy2Z8VKnc5jSVWUepn2LAs9R4L-nCYr6yGQ_DoR9ELwxtQAFhflBDqP9bVgszHs&usqp=CAU"
       ],
       "totalAvailableOccupancy": 9,
@@ -311,7 +310,7 @@
     },
     {
       "id": 4,
-      "name": "Hotel D4",
+      "name": "Heritage Resort",
       "location": "Sundarbans",
       "latitude": 22.011768557461203,
       "longitude": 89.17928791803163,
@@ -325,8 +324,8 @@
         "Eco Tours"
       ],
       "hotelImages": [
-        "https://q-xx.bstatic.com/xdata/images/hotel/max500/573421951.jpg?k=90ac013c785432463a1d74b477d7264f993dd162ef190512914a6219de580e98&o=",
-        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/357887861.jpg?k=4bb4c7a0e70b4e84029a3313fc0cd89fe610a73eb7e04bc223940e82be0999f0&o=&hp=1",
+        
+        
         "https://dhaka-regency.dhaka-hotel.com/data/Pics/OriginalPhoto/3113/311398/311398285/regency-hotel-dhaka-pic-91.JPEG"
       ],
       "totalAvailableOccupancy": 9,
@@ -418,7 +417,7 @@
     },
     {
       "id": 5,
-      "name": "Hotel E5",
+      "name": "Hotel Noorjahan Grand",
       "location": "Sylhet",
       "latitude": 24.902528644628713,
       "longitude": 91.87383413600402,
@@ -430,8 +429,7 @@
         "Room Service"
       ],
       "hotelImages": [
-        "https://images.trvl-media.com/lodging/9000000/8080000/8074800/8074780/2ee76a18.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
-        "https://www.cnineo.com/images/project/grand-sylhet-hotel-resort-in-bangladesh-19.jpg",
+        
         "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/19/14/1a/birds-eye-view.jpg?w=1200&h=-1&s=1"
       ],
       "totalAvailableOccupancy": 5,
@@ -517,7 +515,7 @@
     },
     {
       "id": 6,
-      "name": "Hotel F6",
+      "name": "SKS Inn",
       "location": "Mahasthangarh",
       "latitude": 24.961981331373778,
       "longitude": 89.37625984868816,
@@ -529,8 +527,7 @@
         "Swimming Pool"
       ],
       "hotelImages": [
-        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/01/58/dc/view-from-outside.jpg?w=1200&h=-1&s=1",
-        "https://wpcdn.us-midwest-1.vip.tn-cloud.net/www.coloradohomesmag.com/content/uploads/2023/09/p/h/2023-gceo-the-benson-hotel-exterior-1-scaled.jpg",
+        
         "https://media.istockphoto.com/id/503016934/photo/entrance-of-luxury-hotel.jpg?s=612x612&w=0&k=20&c=DXFzucB2xWGf3PI6_yjhLKDvrFcGlOpOjXh6KDI8rqU="
       ],
       "totalAvailableOccupancy": 6,
@@ -556,9 +553,9 @@
           "maxOccupancy": 3,
           "roomImages": [
             "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
-            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-bed_124907-258.jpg?ga=GA1.1.303487191.1746108812&w=740",
             "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
-            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+            "https://img.freepik.com/free-photo/pillow-bed_1203-2819.jpg?ga=GA1.1.303487191.1746108812&w=740"
           ]
         },
         {
@@ -616,7 +613,7 @@
     },
     {
       "id": 7,
-      "name": "Hotel G7",
+      "name": "Sairu Hill Resort",
       "location": "Bandarban",
       "latitude": 22.204241712882858,
       "longitude": 92.21396597119653,
@@ -629,8 +626,7 @@
         "Restaurant"
       ],
       "hotelImages": [
-        "https://mir-s3-cdn-cf.behance.net/project_modules/1400/8fa9ac162707015.63da12f441b4b.jpg",
-        "https://p.turbosquid.com/ts-thumb/Np/X6MJHV/CO/facade02_view01/jpg/1643921746/1920x1080/fit_q87/3e6c122c2ba6a23d2a99d1fb150c42fb92c0ce8d/facade02_view01.jpg",
+        
         "https://www.ebhosworks.com.ng/wp-content/uploads/2022/04/Modern-hotel-exterior-design-architecture.jpg"
       ],
       "totalAvailableOccupancy": 6,
@@ -710,7 +706,7 @@
     },
     {
       "id": 8,
-      "name": "Hotel H8",
+      "name": "Ocean Paradise Hotel & Resort",
       "location": "Saint Martin",
       "latitude": 20.632870513163475,
       "longitude": 92.32409134458166,
@@ -724,8 +720,7 @@
         "Eco Tours"
       ],
       "hotelImages": [
-        "https://i.pinimg.com/originals/77/86/2f/77862f7872c18052f0d5d9113ca90ed3.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2023/8/336872955/LK/GE/VC/150189352/hotel-exterior-designing-service.jpg",
+        
         "https://5.imimg.com/data5/SELLER/Default/2023/8/336872955/LK/GE/VC/150189352/hotel-exterior-designing-service.jpg"
       ],
       "totalAvailableOccupancy": 9,
@@ -832,7 +827,7 @@
     },
     {
       "id": 9,
-      "name": "Hotel I9",
+      "name": "Sikder Resort & Villas",
       "location": "Mahasthangarh",
       "latitude": 24.96705890342894,
       "longitude": 89.37038245121347,
@@ -845,8 +840,7 @@
         "Breakfast Included"
       ],
       "hotelImages": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXE93Em8nftJXTgHciOHZcLRfVgxolcTGJeHLh7ZnCQSRgtSa6YutNbbnZpHdAuoK4TXs&usqp=CAU",
-        "https://hips.hearstapps.com/hmg-prod/images/hotels-in-la-4-1638281665.jpg",
+        
         "https://cdn.asdfinc.io/media/30776/the-benson-hotel-and-faculty-clubdji_0154-1.jpg?anchor=center&mode=crop&width=1920&height=1080&rnd=133527397190000000&quality=75"
       ],
       "totalAvailableOccupancy": 3,
@@ -947,7 +941,7 @@
     },
     {
       "id": 10,
-      "name": "Hotel J10",
+      "name": "Restinn Hotel & Restaurant",
       "location": "Paharpur",
       "latitude": 25.024214226757937,
       "longitude": 89.01264210959043,
@@ -960,8 +954,7 @@
         "Eco Tours"
       ],
       "hotelImages": [
-        "https://media.istockphoto.com/id/151567458/photo/hotel-with-empty-lot.jpg?s=612x612&w=0&k=20&c=6aHyjxmHz6F7NB1VtgL1DLbcPQ2A_Pv7B6R9bpIi3JU=",
-        "https://5.imimg.com/data5/SELLER/Default/2023/8/336872951/UC/XC/VH/150189352/hotel-exterior-designing-service.jpeg",
+        
         "https://5.imimg.com/data5/SELLER/Default/2023/8/336872951/UC/XC/VH/150189352/hotel-exterior-designing-service.jpeg"
       ],
       "totalAvailableOccupancy": 5,
@@ -1068,7 +1061,7 @@
     },
     {
       "id": 11,
-      "name": "Hotel K11",
+      "name": "Long Beach Hotel",
       "location": "Cox's Bazar",
       "latitude": 21.434616209416305,
       "longitude": 92.00947881682912,
@@ -1082,8 +1075,7 @@
         "Swimming Pool"
       ],
       "hotelImages": [
-        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/641151494.jpg?k=74ea667970853565b0503bd675936738d08f067267387672c2f6bd32d1a5f0e7&o=&hp=1",
-        "https://u.profitroom.pl/2020-hotelswing-pl/thumb/2560x1440/uploads/hotel.jpg",
+        
         "https://www.cvent.com/sites/default/files/image/2024-10/Hyatt-Regency-Grand-Reserve.jpg"
       ],
       "totalAvailableOccupancy": 2,
@@ -1190,7 +1182,7 @@
     },
     {
       "id": 12,
-      "name": "Hotel L12",
+      "name": "Hotel Supreme Residency",
       "location": "Srimangal",
       "latitude": 24.309075520097718,
       "longitude": 91.7383508024995,
@@ -1203,8 +1195,7 @@
         "Breakfast Included"
       ],
       "hotelImages": [
-        "https://novemecoresort.com/wp-content/uploads/2018/12/3.jpg",
-        "https://q-xx.bstatic.com/xdata/images/hotel/max500/420912524.jpg?k=bdd5a8ad7853171fb624a379aa54f41e653896b5f732e84938020ccb58b2924a&o=",
+        
         "https://cf.bstatic.com/xdata/images/hotel/max1024x768/639707670.jpg?k=d8da3a9b4a9f0e25ff7e760e23a2769efb44ff2575800f3826b21bb75689a1f2&o=&hp=1"
       ],
       "totalAvailableOccupancy": 7,
@@ -1304,7 +1295,7 @@
     },
     {
       "id": 13,
-      "name": "Hotel M13",
+      "name": "The Palace Luxury Resort",
       "location": "Srimangal",
       "latitude": 24.301379918319302,
       "longitude": 91.72634723742482,
@@ -1318,8 +1309,7 @@
         "WiFi"
       ],
       "hotelImages": [
-        "https://resortsbd.com/upload/resort/1686562802_resort_image1.jpg",
-        "https://r1imghtlak.mmtcdn.com/7871862487d411ea9dce0242ac110002.jpg",
+        
         "https://www.shutterstock.com/shutterstock/photos/2335801547/display_1500/stock-photo-a-beautiful-eco-resort-nearby-sundarban-bangladesh-2335801547.jpg"
       ],
       "totalAvailableOccupancy": 9,
@@ -1332,9 +1322,9 @@
           "maxOccupancy": 2,
           "roomImages": [
             "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
-            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-bed_124907-258.jpg?ga=GA1.1.303487191.1746108812&w=740",
             "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
-            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+            "https://img.freepik.com/free-photo/pillow-bed_1203-2819.jpg?ga=GA1.1.303487191.1746108812&w=740"
           ]
         },
         {
@@ -1416,7 +1406,7 @@
     },
     {
       "id": 14,
-      "name": "Hotel N14",
+      "name": "Tiger Garden International Hotel",
       "location": "Sundarbans",
       "latitude": 22.01451773791542,
       "longitude": 89.19083555413405,
@@ -1430,8 +1420,7 @@
         "Swimming Pool"
       ],
       "hotelImages": [
-        "https://middleeastevents.com/blog/wp-content/uploads/2017/08/Palazzo-Versace-Dubai-UAE-pool-view.jpg",
-        "https://w0.peakpx.com/wallpaper/367/720/HD-wallpaper-luxury-house-amazing-architecture-home.jpg",
+        
         "https://legendproperties.net/wp-content/uploads/2024/05/Most-Expensive-Homes-in-US.webp"
       ],
       "totalAvailableOccupancy": 7,
@@ -1513,7 +1502,7 @@
     },
     {
       "id": 15,
-      "name": "Hotel O15",
+      "name": "Motel Nishorgo",
       "location": "Khulna",
       "latitude": 22.85023999466196,
       "longitude": 89.54763533287291,
@@ -1525,8 +1514,7 @@
         "Breakfast Included"
       ],
       "hotelImages": [
-        "https://static.toiimg.com/thumb/msid-111756563,width-1280,height-720,resizemode-4/111756563.jpg",
-        "https://ewscripps.brightspotcdn.com/dims4/default/c6d7a28/2147483647/strip/true/crop/5444x3062+0+282/resize/1280x720!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F67%2F74%2F376d6cd6468fbc709f1756f07639%2F2738-carina-way-aerials-125.jpg",
+        
         "https://media.timeout.com/images/106054872/image.jpg"
       ],
       "totalAvailableOccupancy": 6,
@@ -1567,9 +1555,9 @@
           "maxOccupancy": 4,
           "roomImages": [
             "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
-            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-bed_124907-258.jpg?ga=GA1.1.303487191.1746108812&w=740",
             "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
-            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+            "https://img.freepik.com/free-photo/pillow-bed_1203-2819.jpg?ga=GA1.1.303487191.1746108812&w=740"
           ]
         }
       ],
@@ -1614,7 +1602,7 @@
     },
     {
       "id": 16,
-      "name": "Hotel P16",
+      "name": "Sea Pearl Beach Resort",
       "location": "Saint Martin",
       "latitude": 20.624783659404546,
       "longitude": 92.31457979037002,
@@ -1628,8 +1616,7 @@
         "Restaurant"
       ],
       "hotelImages": [
-        "https://www.keyrealestates.com/cms/wp-content/uploads/2017/10/4.jpg",
-        "https://www.devooghthouselifters.com/wp-content/uploads/2020/07/beach-house-scaled.jpeg",
+        
         "https://images.rezfusion.com/?optimize=true&rotate=true&quality=70&width=1280&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/rentalsatthebeach/image/488e937a-6233-4c42-8cd2-0c3d42045719&settings=default"
       ],
       "totalAvailableOccupancy": 9,
@@ -1712,7 +1699,7 @@
     },
     {
       "id": 17,
-      "name": "Hotel Q17",
+      "name": "Pashur Eco Resort",
       "location": "Khulna",
       "latitude": 22.849236781785695,
       "longitude": 89.53850514617,
@@ -1726,9 +1713,9 @@
         "Breakfast Included"
       ],
       "hotelImages": [
-        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/303315943.jpg?k=e8b80e6e273ab744215eb5fce6c7d0b280cb96ca7f8876d25dc040fa7e35156b&o=&hp=1",
-        "https://ap-northeast-1.graphassets.com/clxzycdtd0940070z1zdr1q3g/cm7bf3tr24jur07144djbea1v",
-        ""
+        
+        "https://ap-northeast-1.graphassets.com/clxzycdtd0940070z1zdr1q3g/cm7bf3tr24jur07144djbea1v"
+        
       ],
       "totalAvailableOccupancy": 9,
       "rooms": [
@@ -1738,7 +1725,13 @@
           "pricePerNight": 1000,
           "availability": true,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/pillow-bed_74190-2734.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/comfort-pillow-bed_74190-7252.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/hotel_664434-4533.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-bed_124907-251.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 1701,
@@ -1746,7 +1739,13 @@
           "pricePerNight": 1800,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/3d-rendering-modern-luxury-bedroom-suite-bathroom-working-table_105762-1118.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/pillow-bed_1203-9520.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-apartments-with-bedroom-living-area-contemporary-style-with-classic-elements-blue-walls-light-furniture-3d-rendering_295714-2840.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-living-room_1203-2867.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 1702,
@@ -1754,7 +1753,13 @@
           "pricePerNight": 3350,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-bed_124907-401.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/digital-lavender-style-interior-design_23-2151561212.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-yellow-bedroom-suite-hotel-with-tv-couch_105762-2269.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxurious-chinese-style-bedroom_1310085-58966.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -1810,7 +1815,7 @@
     },
     {
       "id": 18,
-      "name": "Hotel R18",
+      "name": "Chader Bari Beach Resort",
       "location": "Saint Martin",
       "latitude": 20.628692342369384,
       "longitude": 92.32899028294517,
@@ -1822,7 +1827,9 @@
         "Room Service",
         "Eco Tours"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/357887861.jpg?k=4bb4c7a0e70b4e84029a3313fc0cd89fe610a73eb7e04bc223940e82be0999f0&o=&hp=1"
+      ],
       "totalAvailableOccupancy": 9,
       "rooms": [
         {
@@ -1831,7 +1838,13 @@
           "pricePerNight": 1900,
           "availability": true,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/pillow-bed_74190-2230.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/romantic-zone-with-fruits-flowers_8353-9800.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/white-comfortable-pillow-decoration-interior-bedroom_74190-11125.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/relax-sofa-window_1150-12924.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 1801,
@@ -1839,7 +1852,13 @@
           "pricePerNight": 4050,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/hotel_664434-4671.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/3d-rendering-luxury-bedroom-suite-resort-hotel-with-twin-bed_105762-1958.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/stylish-luxury-bedroom_124907-42.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/cozy-modern-bedroom-with-comfortable-bed-elegant-decor-wide-window-generated-by-artificial-intelligence_188544-150077.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 1802,
@@ -1847,7 +1866,13 @@
           "pricePerNight": 6050,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/illustration-bedroom-interior_252025-159958.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/small-juvenile-bedroom-arrangement_23-2151113863.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-luxury-modern-bedroom-suite-hotel-with-tv-cabinet_105762-2280.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/illustration-bedroom-interior_252025-146367.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -1909,7 +1934,7 @@
     },
     {
       "id": 19,
-      "name": "Hotel S19",
+      "name": "Coral Blue Resort",
       "location": "Saint Martin",
       "latitude": 20.63014592729001,
       "longitude": 92.31373081753298,
@@ -1922,7 +1947,11 @@
         "Swimming Pool",
         "Gym"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        
+        "https://wpcdn.us-midwest-1.vip.tn-cloud.net/www.coloradohomesmag.com/content/uploads/2023/09/p/h/2023-gceo-the-benson-hotel-exterior-1-scaled.jpg"
+
+      ],
       "totalAvailableOccupancy": 7,
       "rooms": [
         {
@@ -1931,7 +1960,13 @@
           "pricePerNight": 1200,
           "availability": false,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv_105762-2301.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/25215938.jpg?k=73da5b38faff6969d1b05ce4bf59fd8c1842955f522ea91bc9f569917a74ef3e&o=&hp=1",
+            "https://img.freepik.com/premium-photo/interior-photography-modern-style-bedroom-with-large-bed_321831-670.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/white-comfortable-pillow-blanket-bed-with-light-lamp_74190-12078.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 1901,
@@ -1939,7 +1974,13 @@
           "pricePerNight": 1550,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/vacation-brown-youth-room-sleeping_1253-770.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/double-bed-with-pillows_1203-124.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/bedroom-with-ceiling-fan-pool-villa-house-home-condo-apartment_176546-76.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/pillow-bed_74190-6245.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 1902,
@@ -1990,7 +2031,7 @@
     },
     {
       "id": 20,
-      "name": "Hotel T20",
+      "name": "Megh Kabbo Hilltop Cottage",
       "location": "Rangamati",
       "latitude": 22.73889507385557,
       "longitude": 92.305891398249,
@@ -2014,7 +2055,13 @@
           "pricePerNight": 2550,
           "availability": true,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/spa-salon-with-beach-view_53876-31335.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/small-hotel-room-interior-with-double-bed-bathroom_1262-12489.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-interior-design-bedroom-pool-villa_41487-25.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263520.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 2001,
@@ -2022,7 +2069,13 @@
           "pricePerNight": 3050,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/luxury-chill-bedroom-hotel_1150-10902.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/bedroom-with-window-glass-door-ceiling-fan-wooden-flooring-pool-villa-house-home-condo-apartment_176546-78.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497284.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/sunset-views-from-overwater-pool-villa-maldives_187961-1637.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 2002,
@@ -2030,7 +2083,13 @@
           "pricePerNight": 7050,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/bedroom-with-ceiling-fan-pool-villa-house-home-condo-apartment_176546-75.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-exterior-design-bedroom-luxury-pool-villa-house-home-feature-swimming-pool_176546-471.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111483.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/bedroom-with-window-glass-door-ceiling-fan-wooden-flooring-pool-villa-house-home-condo-apartment_176546-80.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -2074,7 +2133,7 @@
     },
     {
       "id": 21,
-      "name": "Hotel U21",
+      "name": "Hotel Sea Crown",
       "location": "Cox's Bazar",
       "latitude": 21.43570749162017,
       "longitude": 92.01065619058626,
@@ -2097,7 +2156,13 @@
           "pricePerNight": 3450,
           "availability": false,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/interior-design-bedroom-with-bathtub-villa-house-home-condo-apartment_176546-184.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111480.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/sunset-views-from-overwater-pool-villa-maldives_187961-1578.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/modern-bedroom-pool-access-red-sofa_41487-766.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 2101,
@@ -2105,7 +2170,13 @@
           "pricePerNight": 3950,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/hotel-room-interior-with-bedroom-area-living-space-kitchen_1262-12288.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/interior-modern-comfortable-hotel-room_1232-1823.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/modern-luxury-bedroom-suite-bathroom_105762-1791.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-design-bedroom-hotel_176546-492.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 2102,
@@ -2113,7 +2184,13 @@
           "pricePerNight": 6880,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/interior-design-bedroom-luxury-pool-villa-house-home-feature-swimming-pool_176546-474.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-interior-design-bedroom-pool-villa_41487-74.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-design-house-home-condo-villa-feature-double-bed-dressing-table-bedroom-white-space_176546-308.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/relax-bedroom_1150-17980.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -2175,7 +2252,7 @@
     },
     {
       "id": 22,
-      "name": "Hotel V22",
+      "name": "Mongla Tourist Inn",
       "location": "Sundarbans",
       "latitude": 22.005741570459843,
       "longitude": 89.18674551536634,
@@ -2186,7 +2263,9 @@
         "Eco Tours",
         "Beach Access"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/01/58/dc/view-from-outside.jpg?w=1200&h=-1&s=1"
+      ],
       "totalAvailableOccupancy": 3,
       "rooms": [
         {
@@ -2195,7 +2274,13 @@
           "pricePerNight": 3150,
           "availability": false,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/sunlight-falling-window-house_1048944-7352473.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-bedroom_124907-427.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/bedroom-interior_53876-32151.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-interior-design-bedroom-pool-villa-with-cozy-king-bed_41487-121.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 2201,
@@ -2203,7 +2288,13 @@
           "pricePerNight": 4580,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/luxury-interior-bedroom-with-white_176546-16.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-bed_124907-258.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-design-bedroom-hotel_176546-498.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-design-house-home-condo-villa-feature-double-bed-red-bed-runner-dressing-table-bedroom_176546-297.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 2202,
@@ -2211,7 +2302,13 @@
           "pricePerNight": 8000,
           "availability": false,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/interior-bedroom-hotel-phuket-thailand_63492-256.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263517.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263545.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/luxury-thai-massage-pavilion_1150-11075.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -2273,7 +2370,7 @@
     },
     {
       "id": 23,
-      "name": "Hotel W23",
+      "name": "Blue Marine Resorts",
       "location": "Saint Martin",
       "latitude": 20.628498866517003,
       "longitude": 92.33158697708687,
@@ -2285,7 +2382,10 @@
         "Restaurant",
         "Beach Access"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        
+        "https://p.turbosquid.com/ts-thumb/Np/X6MJHV/CO/facade02_view01/jpg/1643921746/1920x1080/fit_q87/3e6c122c2ba6a23d2a99d1fb150c42fb92c0ce8d/facade02_view01.jpg"
+      ],
       "totalAvailableOccupancy": 9,
       "rooms": [
         {
@@ -2294,7 +2394,13 @@
           "pricePerNight": 3250,
           "availability": true,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/stones-natural-room-interior-design_23-2151890378.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/elegant-hotel-room-with-big-bed_1203-1494.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-interior-design-bedroom-pool-villa-with-high-raised-ceiling-roses-bed-house-home-building_41487-248.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/spacious-bedroom-pool-access-with-sliding-door-overlooking-garden-with-sun-bed-umbrella_41487-702.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 2301,
@@ -2302,7 +2408,13 @@
           "pricePerNight": 4250,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/pillow-bed_74190-878.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/modern-bedroom-red-sofa_41487-765.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/real-luxury-interior-design-bedroom-with-light-bright-space-house-home_41487-404.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/breakfast-tray-put-single-bed-with-white-bedding_141793-117.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 2302,
@@ -2310,7 +2422,13 @@
           "pricePerNight": 7880,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/bedroom-with-bed-picture-tree-wall_875037-9387.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/minimalist-bedroom-with-view_23-2151934207.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/hotel-room-luxury-resort_53876-45479.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-design-bedroom-luxury-modern-style_176546-256.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -2360,7 +2478,7 @@
     },
     {
       "id": 24,
-      "name": "Hotel X24",
+      "name": "Asia Hotel & Resorts",
       "location": "Paharpur",
       "latitude": 25.025717603081173,
       "longitude": 89.02706406853508,
@@ -2373,7 +2491,9 @@
         "WiFi",
         "Restaurant"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://etimg.etb2bimg.com/thumb/msid-77977319,imgsize-302094,width-1200,height=765,overlay-ethospitality/hotels/ihg-signs-two-new-hotels-in-bangladesh.jpg"
+      ],
       "totalAvailableOccupancy": 0,
       "rooms": [
         {
@@ -2384,9 +2504,9 @@
           "maxOccupancy": 2,
           "roomImages": [
             "https://img.freepik.com/free-photo/3d-rendering-luxury-modern-bedroom-suite-hotel-with-tv-cabinet_105762-2282.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
-                  "https://img.freepik.com/free-photo/contemporary-living-room_1150-12613.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
-                  "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-living-room_1203-2721.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
-                  "https://img.freepik.com/free-photo/spacious-room-with-bed_1203-633.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+            "https://img.freepik.com/free-photo/contemporary-living-room_1150-12613.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-living-room_1203-2721.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/spacious-room-with-bed_1203-633.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
       
           ]
         },
@@ -2398,9 +2518,9 @@
           "maxOccupancy": 3,
           "roomImages": [
             "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
-            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-bed_124907-258.jpg?ga=GA1.1.303487191.1746108812&w=740",
             "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
-            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+            "https://img.freepik.com/free-photo/pillow-bed_1203-2819.jpg?ga=GA1.1.303487191.1746108812&w=740"
           ]
         },
         {
@@ -2465,7 +2585,7 @@
     },
     {
       "id": 25,
-      "name": "Hotel Y25",
+      "name": "Aronnok & Lakeshore Holiday Resort",
       "location": "Rangamati",
       "latitude": 22.735807622331937,
       "longitude": 92.30050867305647,
@@ -2476,7 +2596,9 @@
         "Gym",
         "Eco Tours"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://mir-s3-cdn-cf.behance.net/project_modules/1400/8fa9ac162707015.63da12f441b4b.jpg"
+      ],
       "totalAvailableOccupancy": 9,
       "rooms": [
         {
@@ -2485,7 +2607,13 @@
           "pricePerNight": 2560,
           "availability": true,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/luxury-interior-design-bedroom-with-cozy-king-bed_41487-197.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-home_1048944-17318564.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/pool-view-from-spacious-bedroom-luxury-house_41487-739.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/real-luxury-interior-design-bedroom-with-light-bright-space-television-house-home_41487-403.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 2501,
@@ -2493,7 +2621,13 @@
           "pricePerNight": 4080,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/luxury-room-with-bed-warm-light-classic-europe-style_24637-613.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-bedroom_1048944-2146096.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/bedroom-with-cozy-king-bed-house_41487-661.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-bedroom-hotel_63492-318.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 2502,
@@ -2501,7 +2635,13 @@
           "pricePerNight": 8100,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/spacious-room-with-wooden-table_1203-1489.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/beautiful-chair-umbrella-vacation-nature_1203-4925.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-design-bedroom-pool-villa_41487-637.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/traditional-thai-style-wooden-bedroom_251764-578.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -2545,7 +2685,7 @@
     },
     {
       "id": 26,
-      "name": "Hotel @26",
+      "name": "Parjatan Holiday Complex",
       "location": "Sundarbans",
       "latitude": 22.020222502219845,
       "longitude": 89.181710913516,
@@ -2557,8 +2697,7 @@
         "Restaurant"
       ],
       "hotelImages": [
-        "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-",
-        "https://images.pexels.com/photos/14488909/pexels-photo-14488909.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        
         "https://images.pexels.com/photos/30664967/pexels-photo-30664967/free-photo-of-dubai-modern-skyscraper-with-unique-design.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
       ],
       "totalAvailableOccupancy": 9,
@@ -2644,7 +2783,7 @@
     },
     {
       "id": 27,
-      "name": "Hotel A27",
+      "name": "Hotel Green Castle",
       "location": "Bandarban",
       "latitude": 22.20240213236304,
       "longitude": 92.21956650417852,
@@ -2656,7 +2795,10 @@
         "Beach Access",
         "Swimming Pool"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-"
+        
+      ],
       "totalAvailableOccupancy": 9,
       "rooms": [
         {
@@ -2665,7 +2807,12 @@
           "pricePerNight": 1300,
           "availability": true,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://mir-s3-cdn-cf.behance.net/project_modules/1400/29d33f141215185.624f4d9ecc269.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHia8-_f5b0TAw38X8tPo0ERTo3s1ovqXULj07KjN2MlHNNUWWirHXlpU5brqU-wA5BU&usqp=CAU",
+            "https://earthid.sg/wp-content/uploads/2020/03/Earth_Interior_Design-56_Anchorvale_Crescent_010-1024x683.jpg.webp",
+            "https://i.pinimg.com/236x/e8/03/6f/e8036fca7dd9b34e154adb9338751546.jpg"
+          ]
         },
         {
           "roomId": 2701,
@@ -2673,7 +2820,13 @@
           "pricePerNight": 3180,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://www.shutterstock.com/image-illustration/small-bedroom-wooden-wardrobe-3d-260nw-1208839480.jpg",
+            "https://hotelinteriors.com.au/wp-content/uploads/2020/11/Hotel-Interiors-resort-furniture-supplier.png",
+            "https://d1hy6t2xeg0mdl.cloudfront.net/image/616696/489059bbb5/700-width",
+            "https://www.oppeinhome.com/upload/image/product/thumb/20211009/white-grey-beige-modern-hotel-wood-grain1.jpg"
+          
+          ]
         },
         {
           "roomId": 2702,
@@ -2681,7 +2834,13 @@
           "pricePerNight": 4570,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGfJsoCRNplIz_6516sfUcGUHx9DVuhKjx8A&s",
+            "https://www.dereknielsen.com/wp-content/uploads/2023/05/AdobeStock_584909013.jpg",
+            "https://i.pinimg.com/736x/a3/f1/7d/a3f17df381f2c9fc3f0047a9922e80c4.jpg",
+            "https://images.squarespace-cdn.com/content/v1/5e71144d8da1b81296674412/1590259834531-KBIK0R8L9EHXYPNMUT4J/17.jpg"
+          
+          ]
         }
       ],
       "reviews": [
@@ -2743,7 +2902,7 @@
     },
     {
       "id": 28,
-      "name": "Hotel B28",
+      "name": "Space Apartments",
       "location": "Sylhet",
       "latitude": 24.888420297161122,
       "longitude": 91.86005900116585,
@@ -2754,7 +2913,9 @@
         "Eco Tours",
         "WiFi"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://images.pexels.com/photos/14488909/pexels-photo-14488909.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      ],
       "totalAvailableOccupancy": 6,
       "rooms": [
         {
@@ -2763,7 +2924,12 @@
           "pricePerNight": 1890,
           "availability": true,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://sthotelsmalta.com/wp-content/uploads/2022/06/modern-luxury-bedroom-suite-and-bathroom-with-working-table-scaled.jpg",
+            "https://static.vecteezy.com/system/resources/previews/027/940/500/large_2x/contemporary-hotel-room-design-free-photo.jpg",
+            "https://hoteldesigns.net/wp-content/uploads/2017/05/Beacon2.jpg",
+            "https://vwartclub.com/media/projects/3322/1.jpg"
+          ]
         },
         {
           "roomId": 2801,
@@ -2771,7 +2937,12 @@
           "pricePerNight": 4090,
           "availability": false,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-bed_124907-258.jpg?ga=GA1.1.303487191.1746108812&w=740",
+            "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
+            "https://img.freepik.com/free-photo/pillow-bed_1203-2819.jpg?ga=GA1.1.303487191.1746108812&w=740"
+          ]
         },
         {
           "roomId": 2802,
@@ -2779,7 +2950,13 @@
           "pricePerNight": 6090,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://sthotelsmalta.com/wp-content/uploads/2022/06/modern-luxury-bedroom-suite-and-bathroom-with-working-table-scaled.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH983u5jiG0sPrgHePw-r4vks9h5gFFwuafg&s",
+            "https://www.seleqtionshotels.com/content/dam/seleqtions/Connaugth/TCPD_PremiumBedroom4_1235.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+            "https://fruitbasket.limepack.com/blog/wp-content/uploads/2024/04/pexels-pixabay-271618.jpg"
+          
+          ]
         }
       ],
       "reviews": [
@@ -2835,7 +3012,7 @@
     },
     {
       "id": 29,
-      "name": "Hotel C29",
+      "name": "Sundarban Eco-Resort",
       "location": "Sundarbans",
       "latitude": 22.011416855779323,
       "longitude": 89.1869554047812,
@@ -2846,7 +3023,10 @@
         "Restaurant",
         "Gym"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        
+        "https://5.imimg.com/data5/SELLER/Default/2023/8/336872955/LK/GE/VC/150189352/hotel-exterior-designing-service.jpg"
+      ],
       "totalAvailableOccupancy": 9,
       "rooms": [
         {
@@ -2855,7 +3035,12 @@
           "pricePerNight": 800,
           "availability": true,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/beautiful-luxury-comfortable-white-pillow-bed-blanket-decoration-bedroom_74190-8998.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/luxury-hotel-room-with-modern-design-elegance-generated-by-ai_188544-17094.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/hotel-room-with-beautiful-view-sea_780672-206.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/white-bed-lamp-hotel-business_1203-4933.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+          ]
         },
         {
           "roomId": 2901,
@@ -2863,7 +3048,13 @@
           "pricePerNight": 1900,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/luxury-room-decor-with-brown-wooden-furniture-around-with-window-glass-see-view-outside_24637-660.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263507.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-interior-design-bedroom-pool-villa-with-cozy-king-bed_41487-117.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/rural-patio-with-furniture-vegetation_23-2150698452.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 2902,
@@ -2871,7 +3062,13 @@
           "pricePerNight": 2500,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/3d-rendering-modern-luxury-bedroom-suite-bathroom_105762-1945.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-design-house-home-villa-apartment-feature-bedding_176546-450.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/bedroom-with-view-ocean-balcony_517312-47916.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/pillow-bed-with-light-lamp_1203-7367.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -2915,7 +3112,7 @@
     },
     {
       "id": 30,
-      "name": "Hotel D30",
+      "name": "South Beach Hotel",
       "location": "Cox's Bazar",
       "latitude": 21.430401817757833,
       "longitude": 92.01387118069934,
@@ -2939,7 +3136,13 @@
           "pricePerNight": 2050,
           "availability": true,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/luxury-interior-bedroom-pool-villa-with-cozy-king-bed_41487-149.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/traditional-thai-style-wooden-bedroom_251764-548.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/beautiful-luxury-comfortable-white-pillow-blanket-decoration-interior-bedroom_74190-12647.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/coconut-landscape-green-tropical-swimming_1253-651.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 3001,
@@ -2947,7 +3150,13 @@
           "pricePerNight": 4180,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/traditional-thai-style-wooden-bedroom_251764-566.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-interior-with-rich-furniture-scenic-wooden-floor-bright-sunlight_44277-46.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/colorful-bedding-house-with-cosy-bedroom_41487-694.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497260.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 3002,
@@ -2955,7 +3164,13 @@
           "pricePerNight": 6180,
           "availability": false,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/double-bed-with-pillows_1203-117.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/luxury-bedroom-design_1388-230.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/luxury-deck-with-pillow-beach-sea_74190-1684.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-design_1388-1704.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -3005,7 +3220,7 @@
     },
     {
       "id": 31,
-      "name": "Hotel E31",
+      "name": "Victory Hotel",
       "location": "Mahasthangarh",
       "latitude": 24.954239911155668,
       "longitude": 89.36561253480197,
@@ -3017,7 +3232,9 @@
         "Eco Tours",
         "Gym"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://i.pinimg.com/originals/77/86/2f/77862f7872c18052f0d5d9113ca90ed3.jpg"
+      ],
       "totalAvailableOccupancy": 2,
       "rooms": [
         {
@@ -3039,7 +3256,13 @@
           "pricePerNight": 5100,
           "availability": false,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497286.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/beautiful-luxury-comfortable-white-pillow-bed-blanket-decoration-bedroom_74190-8997.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/spacious-bedroom-with-blue-bedsheet-woodden-wadrobe_41487-846.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/comfortable-pillow-bed-decoration-hotel-bedroom_1203-12453.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 3102,
@@ -3047,7 +3270,13 @@
           "pricePerNight": 8200,
           "availability": false,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/lifestyle-home-nobody-clean-morning_1203-4679.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-home_1048944-2730164.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/vintage-hotel-room-interior_39704-1944.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interiors-indoors-properties-architectural-homes-house-homes-nairobi-city-county-kenya-east-afric_257688-5354.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -3091,7 +3320,7 @@
     },
     {
       "id": 32,
-      "name": "Hotel F32",
+      "name": "Momo Inn Hotel and Resort",
       "location": "Mahasthangarh",
       "latitude": 24.962511878525458,
       "longitude": 89.37486049242143,
@@ -3102,7 +3331,9 @@
         "Beach Access",
         "Room Service"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://q-xx.bstatic.com/xdata/images/hotel/max500/573421951.jpg?k=90ac013c785432463a1d74b477d7264f993dd162ef190512914a6219de580e98&o="
+      ],
       "totalAvailableOccupancy": 9,
       "rooms": [
         {
@@ -3111,7 +3342,13 @@
           "pricePerNight": 2350,
           "availability": true,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/soft-elegance-guest-bedding-comfortable_1203-4487.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/white-pillow-bed_74190-2473.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-room-with-bed-with-vintage-decoration_24637-535.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-comtemporary-luxury-bedroom-suite-hotel-with-tv_105762-2064.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 3201,
@@ -3119,7 +3356,13 @@
           "pricePerNight": 4170,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/real-luxury-interior-design-bedroom-with-light-bright-space-house-home_41487-395.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/pillows-bed_74190-6083.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/umbrella-chair-around-swimming-pool_1203-3040.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/male-republic-maldives-march-2-2017-interior-luxury-cozy-bright-modern-double-beds-deluxe-ocean-villa-resort-hotel_36036-1668.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 3202,
@@ -3127,7 +3370,13 @@
           "pricePerNight": 5780,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/best-highend-bedding-decor_1165863-16243.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-dark-wood-european-classic-bedroom-suite-hotel_105762-2164.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-interior-design-bedroom-pool-villa_41487-25.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/chair-sits-cabinstyle-bedroom_157027-3748.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -3177,7 +3426,7 @@
     },
     {
       "id": 33,
-      "name": "Hotel G33",
+      "name": "Hotel Bengal Canary Park",
       "location": "Paharpur",
       "latitude": 25.02854314935352,
       "longitude": 89.02617121389457,
@@ -3189,7 +3438,10 @@
         "Eco Tours",
         "Swimming Pool"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXE93Em8nftJXTgHciOHZcLRfVgxolcTGJeHLh7ZnCQSRgtSa6YutNbbnZpHdAuoK4TXs&usqp=CAU"
+        
+      ],
       "totalAvailableOccupancy": 2,
       "rooms": [
         {
@@ -3198,7 +3450,13 @@
           "pricePerNight": 2950,
           "availability": true,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/bedroom-comfortable-relax-living-blanket-concept_53876-23306.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/stunning-resort-room-features-elegant-decor-ocean-views-dusk_970060-405.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-design-decor-furnishing-luxury-show-home-holiday-villa-bedroom-with-four-poster-bed-interior-design-tropical-villa-sea-island-zanzibar-tanzania-east-africa_185094-1814.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-interior-design-bedroom-pool-villa-with-cozy-king-bed_41487-117.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 3301,
@@ -3206,7 +3464,13 @@
           "pricePerNight": 5790,
           "availability": false,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/pillow-bed_74190-6243.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/traditional-thai-style-wooden-bedroom_251764-581.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/apartment-hd-8k-wall-paper-stock-photographic-image_890746-73063.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/hotel-nantipa-santa-teresa-costa-rica-garnier-arquitectos-andrea-artinano-interior-design-image-copy_860952-4768.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 3302,
@@ -3214,7 +3478,13 @@
           "pricePerNight": 8500,
           "availability": false,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/pillow-sofa_74190-4110.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/minimalist-bedroom-with-view_23-2151934207.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/hotel-interior-its-beautiful-surroundings-with-flowers-drinks-lobby-stairs-lift-resturants_747046-533.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/hotel-room-with-luxury-bed_1339-79939.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -3270,7 +3540,7 @@
     },
     {
       "id": 34,
-      "name": "Hotel H34",
+      "name": "Blue Water Garden",
       "location": "Paharpur",
       "latitude": 25.024564466765753,
       "longitude": 89.01510140690776,
@@ -3281,7 +3551,9 @@
         "Gym",
         "Room Service"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://hips.hearstapps.com/hmg-prod/images/hotels-in-la-4-1638281665.jpg"
+      ],
       "totalAvailableOccupancy": 7,
       "rooms": [
         {
@@ -3290,7 +3562,13 @@
           "pricePerNight": 3550,
           "availability": false,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/bed-with-armchair_1203-741.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/modern-bedroom-red-sofa_41487-764.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/tropical-hotel-room-with-elegant-bedding-natural-decor-luxury-resort-atmosphere-with-beautiful-views_875722-60372.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263521.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 3401,
@@ -3300,9 +3578,9 @@
           "maxOccupancy": 3,
           "roomImages": [
             "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
-            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-bed_124907-258.jpg?ga=GA1.1.303487191.1746108812&w=740",
             "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
-            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+            "https://img.freepik.com/free-photo/pillow-bed_1203-2819.jpg?ga=GA1.1.303487191.1746108812&w=740"
           ]
         },
         {
@@ -3311,7 +3589,13 @@
           "pricePerNight": 7999,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/bed-with-canopy_1385-1801.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-design_1388-1705.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-modern-bedroom-interior_1048-7303.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/white-comfortable-pillow-blanket-bed-with-light-lamp_74190-12078.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -3355,7 +3639,7 @@
     },
     {
       "id": 35,
-      "name": "Hotel I35",
+      "name": "Hotel Sufia International",
       "location": "Sylhet",
       "latitude": 24.899097412117484,
       "longitude": 91.8595395204173,
@@ -3366,7 +3650,9 @@
         "Gym",
         "WiFi"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://static.toiimg.com/thumb/msid-111756563,width-1280,height-720,resizemode-4/111756563.jpg"
+      ],
       "totalAvailableOccupancy": 9,
       "rooms": [
         {
@@ -3375,7 +3661,13 @@
           "pricePerNight": 2999,
           "availability": true,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/traditional-thai-style-wooden-bedroom_251764-558.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/bedroom-comfortable-relax-living-blanket-concept_53876-147837.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/big-hotel-old-hotel-green-hotel_1127771-3272.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/building-space_664434-5619.jpg?ga=GA1.1.303487191.1746108812&w=740"
+
+          ]
         },
         {
           "roomId": 3501,
@@ -3383,7 +3675,13 @@
           "pricePerNight": 3999,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/bedroom-with-bed-mirror-painting-wall_1281067-3890.jpg?ga=GA1.1.303487191.1746108812&w=740",
+            "https://img.freepik.com/free-photo/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck_1258-111480.jpg?ga=GA1.1.303487191.1746108812&w=740",
+            "https://img.freepik.com/premium-photo/bedroom_842717-12254.jpg?ga=GA1.1.303487191.1746108812&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv_105762-2301.jpg?ga=GA1.1.303487191.1746108812&w=740"
+
+          ]
         },
         {
           "roomId": 3502,
@@ -3391,7 +3689,13 @@
           "pricePerNight": 5999,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/building-space_664434-5515.jpg?ga=GA1.1.303487191.1746108812&w=740",
+            "https://img.freepik.com/free-photo/doble-bed-with-two-nightstand_1203-40.jpg?ga=GA1.1.303487191.1746108812&w=740",
+            "https://img.freepik.com/free-photo/comfortable-pillow-bed_74190-6274.jpg?ga=GA1.1.303487191.1746108812&w=740",
+            "https://img.freepik.com/free-photo/interior-hotel-room-residence-is-furnished-modernly-copy-space-background_1258-84783.jpg?ga=GA1.1.303487191.1746108812&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -3441,7 +3745,7 @@
     },
     {
       "id": 36,
-      "name": "Hotel J36",
+      "name": "Shayari Eco Resort",
       "location": "Saint Martin",
       "latitude": 20.6239000870453,
       "longitude": 92.31421311010104,
@@ -3454,7 +3758,10 @@
         "Gym",
         "WiFi"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        
+        "https://5.imimg.com/data5/SELLER/Default/2023/8/336872951/UC/XC/VH/150189352/hotel-exterior-designing-service.jpeg"
+      ],
       "totalAvailableOccupancy": 9,
       "rooms": [
         {
@@ -3463,7 +3770,13 @@
           "pricePerNight": 2199,
           "availability": true,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://geekspin.co/wp-content/uploads/2021/07/Can-you-rent-a-hotel-for-a-few-hours.jpg",
+            "https://img.freepik.com/free-photo/modern-studio-apartment-design-with-bedroom-living-space_1262-12375.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/luxury-bedroom-hotel_1150-10836.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/hotel-room-interior-with-bedroom-area-living-space-kitchen_1262-12288.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+          
+          ]
         },
         {
           "roomId": 3601,
@@ -3471,7 +3784,13 @@
           "pricePerNight": 3199,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/one-king-size-bed-hotel-room_114579-12159.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-bedroom-int_1203-2724.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/double-bed-with-cushions_1203-19.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/tidy-hotel-room-with-brown-curtains_1203-1493.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+          
+          ]
         },
         {
           "roomId": 3602,
@@ -3479,7 +3798,13 @@
           "pricePerNight": 4199,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/one-king-size-bed-hotel-room_114579-12159.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-bedroom-int_1203-2724.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/double-bed-with-cushions_1203-19.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/tidy-hotel-room-with-brown-curtains_1203-1493.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+          
+          ]
         }
       ],
       "reviews": [
@@ -3529,7 +3854,7 @@
     },
     {
       "id": 37,
-      "name": "Hotel K37",
+      "name": "Taj Hotel",
       "location": "Paharpur",
       "latitude": 25.03730735853536,
       "longitude": 89.01637609233396,
@@ -3541,7 +3866,9 @@
         "Restaurant",
         "Gym"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://media.istockphoto.com/id/151567458/photo/hotel-with-empty-lot.jpg?s=612x612&w=0&k=20&c=6aHyjxmHz6F7NB1VtgL1DLbcPQ2A_Pv7B6R9bpIi3JU="
+      ],
       "totalAvailableOccupancy": 4,
       "rooms": [
         {
@@ -3550,7 +3877,13 @@
           "pricePerNight": 899,
           "availability": false,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/bedroom-with-window-glass-door-ceiling-fan-wooden-flooring-pool-villa-house-home-condo-apartment_176546-80.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/luxury-lifestyle-background-interior-exterior-37_1118535-3385.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-comtemporary-luxury-bedroom-suite-hotel-with-tv_105762-2058.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/interior-modern-hotel-room-with-large-double-bed_321831-7235.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 3701,
@@ -3558,7 +3891,13 @@
           "pricePerNight": 1999,
           "availability": false,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/croissant-boiled-egg-orange-juice-yogurt-breakfast-tray-bed-hotel-room_176474-2601.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/pillow-bed_74190-2048.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/white-bedroom-hotel_1150-12633.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/close-up-bed-with-black-cushion_1203-544.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 3702,
@@ -3621,7 +3960,7 @@
     },
     {
       "id": 38,
-      "name": "Hotel L38",
+      "name": "The Atlantic Resort Cox's Bazar",
       "location": "Cox's Bazar",
       "latitude": 21.42554561650087,
       "longitude": 92.01142327849934,
@@ -3633,7 +3972,10 @@
         "Eco Tours",
         "Swimming Pool"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        
+        "https://u.profitroom.pl/2020-hotelswing-pl/thumb/2560x1440/uploads/hotel.jpg"
+      ],
       "totalAvailableOccupancy": 7,
       "rooms": [
         {
@@ -3642,7 +3984,13 @@
           "pricePerNight": 999,
           "availability": false,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/pillow-bed_1203-2819.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/3d-rendering-luxury-modern-bedroom-suite-hotel_105762-1563.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel-suite-living-room.jpg",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/25216067.jpg?k=b64f3043f550205b712654e69fff01ebbd5e6c61c66ae7799f90569306267a9f&o=&hp=1"
+
+          ]
         },
         {
           "roomId": 3801,
@@ -3650,7 +3998,13 @@
           "pricePerNight": 1399,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv_105762-2301.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/25215938.jpg?k=73da5b38faff6969d1b05ce4bf59fd8c1842955f522ea91bc9f569917a74ef3e&o=&hp=1",
+            "https://img.freepik.com/premium-photo/interior-photography-modern-style-bedroom-with-large-bed_321831-670.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/white-comfortable-pillow-blanket-bed-with-light-lamp_74190-12078.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 3802,
@@ -3658,7 +4012,13 @@
           "pricePerNight": 4999,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/vacation-brown-youth-room-sleeping_1253-770.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/double-bed-with-pillows_1203-124.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/bedroom-with-ceiling-fan-pool-villa-house-home-condo-apartment_176546-76.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/pillow-bed_74190-6245.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -3702,7 +4062,7 @@
     },
     {
       "id": 39,
-      "name": "Hotel M39",
+      "name": "Hotel Bengal Blueberry",
       "location": "Paharpur",
       "latitude": 25.03910606589396,
       "longitude": 89.00964110754973,
@@ -3714,7 +4074,9 @@
         "Beach Access",
         "WiFi"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/641151494.jpg?k=74ea667970853565b0503bd675936738d08f067267387672c2f6bd32d1a5f0e7&o=&hp=1"
+      ],
       "totalAvailableOccupancy": 9,
       "rooms": [
         {
@@ -3726,9 +4088,9 @@
           "roomImages": [
             "https://example.com/rooms/room6_1.jpg",
             "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
-            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-bed_124907-258.jpg?ga=GA1.1.303487191.1746108812&w=740",
             "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
-            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+            "https://img.freepik.com/free-photo/pillow-bed_1203-2819.jpg?ga=GA1.1.303487191.1746108812&w=740"
           ]
         },
         {
@@ -3737,7 +4099,13 @@
           "pricePerNight": 1499,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/bed-with-armchair_1203-741.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/interior-bedroom-white-creamy-tones_181624-16134.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/bedroom-interior_53876-32151.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-luxury-modern-bedroom-suite-tv-with-wardrobe-walk-closet_105762-1941.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         },
         {
           "roomId": 3902,
@@ -3745,7 +4113,13 @@
           "pricePerNight": 7990,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/double-bed-with-cushions_1203-687.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/premium-photo/3d-rendering-luxury-modern-bedroom-suite-hotel-with-dining-table_105762-1380.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/interior-hotel-room-residence-is-furnished-modernly-copy-space-background_1258-84783.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/two-individual-beds_1203-18.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -3807,7 +4181,7 @@
     },
     {
       "id": 40,
-      "name": "Hotel N40",
+      "name": "Hotel Star Pacific",
       "location": "Khulna",
       "latitude": 22.84832498719124,
       "longitude": 89.54333913539884,
@@ -3820,7 +4194,10 @@
         "Gym",
         "Restaurant"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://images.trvl-media.com/lodging/9000000/8080000/8074800/8074780/2ee76a18.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
+        
+      ],
       "totalAvailableOccupancy": 4,
       "rooms": [
         {
@@ -3829,7 +4206,12 @@
           "pricePerNight": 3799,
           "availability": false,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://mir-s3-cdn-cf.behance.net/project_modules/1400/29d33f141215185.624f4d9ecc269.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHia8-_f5b0TAw38X8tPo0ERTo3s1ovqXULj07KjN2MlHNNUWWirHXlpU5brqU-wA5BU&usqp=CAU",
+            "https://earthid.sg/wp-content/uploads/2020/03/Earth_Interior_Design-56_Anchorvale_Crescent_010-1024x683.jpg.webp",
+            "https://i.pinimg.com/236x/e8/03/6f/e8036fca7dd9b34e154adb9338751546.jpg"
+          ]
         },
         {
           "roomId": 4001,
@@ -3837,7 +4219,13 @@
           "pricePerNight": 4899,
           "availability": false,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://www.shutterstock.com/image-illustration/small-bedroom-wooden-wardrobe-3d-260nw-1208839480.jpg",
+            "https://hotelinteriors.com.au/wp-content/uploads/2020/11/Hotel-Interiors-resort-furniture-supplier.png",
+            "https://d1hy6t2xeg0mdl.cloudfront.net/image/616696/489059bbb5/700-width",
+            "https://www.oppeinhome.com/upload/image/product/thumb/20211009/white-grey-beige-modern-hotel-wood-grain1.jpg"
+ 
+          ]
         },
         {
           "roomId": 4002,
@@ -3845,7 +4233,13 @@
           "pricePerNight": 5490,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGfJsoCRNplIz_6516sfUcGUHx9DVuhKjx8A&s",
+            "https://www.dereknielsen.com/wp-content/uploads/2023/05/AdobeStock_584909013.jpg",
+            "https://i.pinimg.com/736x/a3/f1/7d/a3f17df381f2c9fc3f0047a9922e80c4.jpg",
+            "https://images.squarespace-cdn.com/content/v1/5e71144d8da1b81296674412/1590259834531-KBIK0R8L9EHXYPNMUT4J/17.jpg"
+
+          ]
         }
       ],
       "reviews": [
@@ -3901,7 +4295,7 @@
     },
     {
       "id": 41,
-      "name": "Hotel O41",
+      "name": "Nagar Valley Hotel Ltd.",
       "location": "Sylhet",
       "latitude": 24.891267528405457,
       "longitude": 91.86394962701712,
@@ -3914,7 +4308,9 @@
         "Eco Tours",
         "Restaurant"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://www.cnineo.com/images/project/grand-sylhet-hotel-resort-in-bangladesh-19.jpg"
+      ],
       "totalAvailableOccupancy": 5,
       "rooms": [
         {
@@ -3925,9 +4321,9 @@
           "maxOccupancy": 2,
           "roomImages": [
             "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
-            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-bed_124907-258.jpg?ga=GA1.1.303487191.1746108812&w=740",
             "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
-            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+            "https://img.freepik.com/free-photo/pillow-bed_1203-2819.jpg?ga=GA1.1.303487191.1746108812&w=740"
           ]
         },
         {
@@ -3936,7 +4332,13 @@
           "pricePerNight": 2888,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGfJsoCRNplIz_6516sfUcGUHx9DVuhKjx8A&s",
+            "https://www.dereknielsen.com/wp-content/uploads/2023/05/AdobeStock_584909013.jpg",
+            "https://i.pinimg.com/736x/a3/f1/7d/a3f17df381f2c9fc3f0047a9922e80c4.jpg",
+            "https://images.squarespace-cdn.com/content/v1/5e71144d8da1b81296674412/1590259834531-KBIK0R8L9EHXYPNMUT4J/17.jpg"
+ 
+          ]
         },
         {
           "roomId": 4102,
@@ -3944,7 +4346,13 @@
           "pricePerNight": 6777,
           "availability": false,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://cdn.mos.cms.futurecdn.net/dhfVvvK94X77PVLhWcesyW.jpg",
+            "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2016/9/27/2/CI_Alice-Cramer-luxury-hotel-room.jpg.rend.hgtvcom.1280.1280.85.suffix/1475020173718.webp",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBX3Snm7EmjRKp-p7vGzauXEjvWFG9vT0CRw&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRquvT-PE-NAYkUPf2vSStTpT-B-FRA9iVKuQ&s"
+ 
+          ]
         }
       ],
       "reviews": [
@@ -4006,7 +4414,7 @@
     },
     {
       "id": 42,
-      "name": "Hotel P42",
+      "name": "The Cox Beach Resort",
       "location": "Cox's Bazar",
       "latitude": 21.420867777640662,
       "longitude": 92.00289999844381,
@@ -4017,7 +4425,10 @@
         "Eco Tours",
         "WiFi"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        
+        "https://q-xx.bstatic.com/xdata/images/hotel/max500/420912524.jpg?k=bdd5a8ad7853171fb624a379aa54f41e653896b5f732e84938020ccb58b2924a&o="
+      ],
       "totalAvailableOccupancy": 7,
       "rooms": [
         {
@@ -4026,7 +4437,13 @@
           "pricePerNight": 2740,
           "availability": false,
           "maxOccupancy": 2,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/premium-photo/interior-bedroom_1048944-2146096.jpg?ga=GA1.1.303487191.1746108812&w=740",
+            "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-bedroom-int_1203-2346.jpg?ga=GA1.1.303487191.1746108812&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-beautiful-comtemporary-luxury-bedroom-suite-hotel-with-tv_105762-2071.jpg?ga=GA1.1.303487191.1746108812&w=740",
+            "https://img.freepik.com/free-photo/interior-modern-comfortable-hotel-room_1232-1823.jpg?ga=GA1.1.303487191.1746108812&w=740"
+
+          ]
         },
         {
           "roomId": 4201,
@@ -4034,7 +4451,12 @@
           "pricePerNight": 3740,
           "availability": true,
           "maxOccupancy": 3,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/pillow-bed-with-light-lamp_1203-7367.jpg?ga=GA1.1.303487191.1746108812&w=740",
+            "https://img.freepik.com/premium-photo/prachuap-khiri-khan-thailand-apr-20-2021-interior-tropical-resort-with-wooden-bed-bedding-furniture-contemporary-design_49071-7544.jpg?ga=GA1.1.303487191.1746108812&w=740",
+            "https://img.freepik.com/premium-photo/table-chairs-bed-home_1048944-22781213.jpg?ga=GA1.1.303487191.1746108812&w=740",
+            "https://img.freepik.com/free-photo/white-comfortable-pillow-blanket-decoration-bed-interior-bedroom_74190-13564.jpg?ga=GA1.1.303487191.1746108812&w=740"
+          ]
         },
         {
           "roomId": 4202,
@@ -4042,7 +4464,13 @@
           "pricePerNight": 5740,
           "availability": true,
           "maxOccupancy": 4,
-          "roomImages": []
+          "roomImages": [
+            "https://img.freepik.com/free-photo/bed-with-armchair_1203-741.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/interior-bedroom-white-creamy-tones_181624-16134.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/bedroom-interior_53876-32151.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740",
+            "https://img.freepik.com/free-photo/3d-rendering-luxury-modern-bedroom-suite-tv-with-wardrobe-walk-closet_105762-1941.jpg?ga=GA1.1.303487191.1746108812&semt=ais_hybrid&w=740"
+
+          ]
         }
       ],
       "reviews": [
@@ -4080,7 +4508,7 @@
     },
     {
       "id": 43,
-      "name": "Hotel Q43",
+      "name": "The Hilltop Hotel and Resort",
       "location": "Sylhet",
       "latitude": 24.90484242862546,
       "longitude": 91.86856591155033,
@@ -4092,7 +4520,9 @@
         "WiFi",
         "Breakfast Included"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://novemecoresort.com/wp-content/uploads/2018/12/3.jpg"
+      ],
       "totalAvailableOccupancy": 5,
       "rooms": [
         {
@@ -4194,7 +4624,7 @@
     },
     {
       "id": 44,
-      "name": "Hotel R44",
+      "name": "Hotel Metro International",
       "location": "Sylhet",
       "latitude": 24.89394847949284,
       "longitude": 91.87134984183247,
@@ -4205,7 +4635,9 @@
         "Room Service",
         "Beach Access"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://www.devooghthouselifters.com/wp-content/uploads/2020/07/beach-house-scaled.jpeg"
+      ],
       "totalAvailableOccupancy": 9,
       "rooms": [
         {
@@ -4216,9 +4648,9 @@
           "maxOccupancy": 2,
           "roomImages": [
             "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
-            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-bed_124907-258.jpg?ga=GA1.1.303487191.1746108812&w=740",
             "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
-            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+            "https://img.freepik.com/free-photo/pillow-bed_1203-2819.jpg?ga=GA1.1.303487191.1746108812&w=740"
           ]
         },
         {
@@ -4301,7 +4733,7 @@
     },
     {
       "id": 45,
-      "name": "Hotel S45",
+      "name": "Music Eco Resort",
       "location": "Saint Martin",
       "latitude": 20.62960144734457,
       "longitude": 92.31344827109889,
@@ -4313,7 +4745,10 @@
         "Gym",
         "WiFi"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://www.keyrealestates.com/cms/wp-content/uploads/2017/10/4.jpg"
+        
+      ],
       "totalAvailableOccupancy": 9,
       "rooms": [
         {
@@ -4409,7 +4844,7 @@
     },
     {
       "id": 46,
-      "name": "Hotel T46",
+      "name": "Paragon Hotel & Resort",
       "location": "Srimangal",
       "latitude": 24.31277122612527,
       "longitude": 91.73800828656556,
@@ -4422,7 +4857,9 @@
         "Gym",
         "Restaurant"
       ],
-      "hotelImages": [],
+      "hotelImages": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/303315943.jpg?k=e8b80e6e273ab744215eb5fce6c7d0b280cb96ca7f8876d25dc040fa7e35156b&o=&hp=1"
+      ],
       "totalAvailableOccupancy": 5,
       "rooms": [
         {
@@ -4433,9 +4870,9 @@
           "maxOccupancy": 2,
           "roomImages": [
             "https://info.ehl.edu/hubfs/Imported_Blog_Media/Hotel-design.jpg",
-            "https://images.squarespace-cdn.com/content/v1/6379dddff98aeb7914af0071/921a2ac2-10d4-4294-b0c5-7cccbf6a5067/View_04.jpg",
+            "https://img.freepik.com/premium-photo/luxury-bedroom-with-bed_124907-258.jpg?ga=GA1.1.303487191.1746108812&w=740",
             "https://images.squarespace-cdn.com/content/v1/61ba5e949f3ae10eb7ec5bb7/1657574778310-IZ67246IFYCPCH0G62E7/ADV-Hotel-Tech-Interior-Design.jpg",
-            "https://i.pinimg.com/236x/4d/19/0b/4d190b4b429465adf0f4aa1bd8a9222a.jpg"
+            "https://img.freepik.com/free-photo/pillow-bed_1203-2819.jpg?ga=GA1.1.303487191.1746108812&w=740"
           ]
         },
         {
@@ -4518,7 +4955,7 @@
     },
     {
       "id": 47,
-      "name": "Hotel U47",
+      "name": "Lemon Garden Resort",
       "location": "Mahasthangarh",
       "latitude": 24.966070285012076,
       "longitude": 89.36410986651751,
@@ -4530,6 +4967,8 @@
         "Breakfast Included"
       ],
       "hotelImages": [
+        
+        "https://r1imghtlak.mmtcdn.com/7871862487d411ea9dce0242ac110002.jpg"
 
       ],
       "totalAvailableOccupancy": 9,
@@ -4615,7 +5054,7 @@
     },
     {
       "id": 48,
-      "name": "Hotel V48",
+      "name": "Jungle Cottage",
       "location": "Khulna",
       "latitude": 22.84960911229662,
       "longitude": 89.54149874185775,
@@ -4712,7 +5151,7 @@
     },
     {
       "id": 49,
-      "name": "Hotel W49",
+      "name": "Hotel Skypark",
       "location": "Rangamati",
       "latitude": 22.72692403600352,
       "longitude": 92.30787230592816,
@@ -4736,11 +5175,11 @@
           "availability": false,
           "maxOccupancy": 2,
           "roomImages": [
-            "https://www.luxurylifestylemag.co.uk/wp-content/uploads/2017/12/PV_Marcellus_2-109.jpg",
-            "https://www.rongininterior.com/images/gallery/living-room/contemporary-living-room-partition-design-actual.jpg",
-            "https://bdinterior.net/storage/2021/10/elegant-hotel-room-interior-design-in-Bangladesh-562x450.jpg",
-            "https://www.rongininterior.com/images/residential/master-bedroom.jpg"
-          ]
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGfJsoCRNplIz_6516sfUcGUHx9DVuhKjx8A&s",
+            "https://www.dereknielsen.com/wp-content/uploads/2023/05/AdobeStock_584909013.jpg",
+            "https://i.pinimg.com/736x/a3/f1/7d/a3f17df381f2c9fc3f0047a9922e80c4.jpg",
+            "https://images.squarespace-cdn.com/content/v1/5e71144d8da1b81296674412/1590259834531-KBIK0R8L9EHXYPNMUT4J/17.jpg"
+         ]
         },
         {
           "roomId": 4901,
@@ -4822,7 +5261,7 @@
     },
     {
       "id": 50,
-      "name": "Hotel X50",
+      "name": "Beach View Guest House",
       "location": "Saint Martin",
       "latitude": 20.63383913493964,
       "longitude": 92.32200769612284,
