@@ -5,6 +5,7 @@ require("dotenv").config();
 const axios = require("axios");
 const jwt = require("jsonwebtoken");
 const fs = require("fs").promises;
+const admin = require("./firebaseAdmin");
 
 const PORT = process.env.PORT || 5000;
 
@@ -75,6 +76,16 @@ app.get("/users", verifyToken, async (req, res) => {
   const result = await userCollection.find().toArray();
   res.send(result);
 });
+//get user by email
+app.get("/users/:email", verifyToken, async (req, res) => {
+  const email = req.params.email;
+  if (email !== req.decoded.email) {
+    return res.status(403).send({ message: "unauthorized access" });
+  }
+  const query = { email: email };
+  const user = await userCollection.findOne(query);
+  res.send(user);
+});
 
 app.post("/users", async (req, res) => {
   const user = req.body;
@@ -116,12 +127,30 @@ app.get("/users/admin/:email", verifyToken, async (req, res) => {
   }
   res.send({ admin });
 });
-//detete user
-app.delete("/users/:id", async (req, res) => {
+app.delete("/users/:id", verifyToken, async (req, res) => {
   const id = req.params.id;
-  const query = { _id: new ObjectId(id) };
-  const result = await userCollection.deleteOne(query);
-  res.send(result);
+  try {
+    const query = { _id: new ObjectId(id) };
+    const user = await userCollection.findOne(query);
+    if (!user) {
+      return res
+        .status(404)
+        .send({ success: false, message: "User not found" });
+    }
+    // Delete from Firebase Auth using Firebase UID (you must store this at registration)
+    if (user.uid) {
+      await admin.auth().deleteUser(user.uid);
+      console.log(`Successfully deleted user with UID: ${user.uid}`);
+    } else {
+      console.log("No Firebase UID found for this user.");
+    }
+    // Delete from MongoDB
+    const result = await userCollection.deleteOne(query);
+    res.send(result);
+  } catch (error) {
+    console.error("Error deleting user:", error);
+    res.status(500).send({ success: false, message: "Failed to delete user" });
+  }
 }); //for clint side work video 68.5 from 6 munite
 
 //get all hotels
