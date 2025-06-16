@@ -100,6 +100,27 @@ app.post("/users", async (req, res) => {
   res.send(result);
 });
 
+//update user data
+app.patch("/users/:id", async (req, res) => {
+  const id = req.params.id;
+
+  // Validate ObjectId
+  if (!ObjectId.isValid(id)) {
+    return res.status(400).send({ message: "Invalid user ID" });
+  }
+
+  const updateData = req.body;
+  const filter = { _id: new ObjectId(id) };
+  const updateDoc = { $set: updateData };
+
+  try {
+    const result = await userCollection.updateOne(filter, updateDoc);
+    res.send(result);
+  } catch (error) {
+    res.status(500).send({ message: "Failed to update user", error });
+  }
+});
+
 //make normal user to admin
 app.patch("/users/admin/:id", async (req, res) => {
   const id = req.params.id;
