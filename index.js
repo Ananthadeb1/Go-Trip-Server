@@ -187,6 +187,34 @@ app.get("/hotels", async (req, res) => {
   res.send(hotels);
 });
 
+// DeepSeek API endpoint
+app.post("/api/openrouter", async (req, res) => {
+  try {
+    const { messages } = req.body;
+
+    const response = await axios.post(
+      "https://openrouter.ai/api/v1/chat/completions",
+      {
+        model: "deepseek/deepseek-r1:free",
+        messages,
+      },
+      {
+        headers: {
+          Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
+          "Content-Type": "application/json",
+          "HTTP-Referer": "https://yourdomain.com", // From environment vars
+          "X-Title": "Your App Name", // From environment vars
+        },
+      }
+    );
+
+    res.json(response.data);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+// Check if the key is being loaded correctly
+
 app.get("/", (_, res) => {
   res.send("server setup done");
 });
