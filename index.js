@@ -44,6 +44,8 @@ run().catch(console.dir);
 //here
 
 const userCollection = client.db("goTrip").collection("users");
+const hotelCollection = client.db("goTrip").collection("hotels");
+const vlog_videosCollection = client.db("goTrip").collection("vlog_videos");
 
 //jwt releted work
 app.post("/jwt", async (req, res) => {
@@ -172,22 +174,21 @@ app.delete("/users/:id", verifyToken, async (req, res) => {
     console.error("Error deleting user:", error);
     res.status(500).send({ success: false, message: "Failed to delete user" });
   }
-}); //for clint side work video 68.5 from 6 munite
+});
 
-//get all hotels
-// app.get("/hotels", async (req, res) => {
-//   const localResponse = { data: "./hotel_Data.json" };
-//   const result = await localResponse.find().toArray();
-//   res.send(result);
-// });
+//vlog video related apis
+app.get("/vlog_videos", async (req, res) => {
+  const videos = await vlog_videosCollection.find().toArray(); // Parse JSON data
+  res.send(videos);
+});
 
+//get all hotels from database
 app.get("/hotels", async (req, res) => {
-  const data = (await fs.readFile("./hotel_Data.json")).toString();
-  const hotels = JSON.parse(data); // Parse JSON data
+  const hotels = await hotelCollection.find().toArray(); // Parse JSON data
   res.send(hotels);
 });
 
-// DeepSeek API endpoint
+//API endpoint
 app.post("/api/openrouter", async (req, res) => {
   try {
     const { messages } = req.body;
