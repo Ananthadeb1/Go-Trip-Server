@@ -48,6 +48,7 @@ const hotelCollection = client.db("goTrip").collection("hotels");
 const vlog_videosCollection = client.db("goTrip").collection("vlog_videos");
 const bookingsCollection = client.db("goTrip").collection("bookings");
 const reviewsCollection = client.db("goTrip").collection("reviews");
+const expenseCollection = client.db("goTrip").collection("expense");
 
 //jwt releted work
 app.post("/jwt", async (req, res) => {
@@ -190,6 +191,7 @@ app.get("/hotels", async (req, res) => {
   res.send(hotels);
 });
 
+//bookings related apis
 app.post("/bookings", async (req, res) => {
   const booking = req.body;
   console.log(booking);
@@ -197,7 +199,111 @@ app.post("/bookings", async (req, res) => {
   res.send(result);
 });
 
-//API endpoint
+// Get a single booking by ID
+app.get("/bookings/:userId", async (req, res) => {
+  try {
+    const userId = req.params.userId;
+
+    // Find bookings for this user with status 'confirmed'
+    const bookings = await bookingsCollection
+      .find({ userId: userId, status: "confirmed" })
+      .toArray();
+
+    if (!bookings || bookings.length === 0) {
+      return res
+        .status(404)
+        .send({ message: "No confirmed bookings found for this user" });
+    }
+
+    res.send(bookings);
+  } catch (error) {
+    console.error("Error fetching bookings:", error);
+    res.status(500).send({ message: "Internal server error" });
+  }
+});
+
+app.patch("/bookings/:id/cancel", async (req, res) => {
+  const id = req.params.id;
+  const updateData = { status: "cancelled" };
+  const filter = { _id: new ObjectId(id) };
+  const updateDoc = { $set: updateData };
+
+  const result = await bookingsCollection.updateOne(filter, updateDoc);
+  res.send(result);
+});
+
+// Get all bookings for user
+// router.get('/', async (req, res) => {
+//   try {
+//     const bookings = await bookingsCollection
+//       .find({ userId: req.user._id })
+//       .sort({ bookingTime: -1 })
+//       .toArray();
+//     res.json(bookings);
+//   } catch (error) {
+//     res.status(500).json({ error: error.message });
+//   }
+// });
+
+// Expense related APIs
+app.post("/expense", async (req, res) => {
+  try {
+    const result = await expenseCollection.insertOne({
+      ...req.body,
+      userId: req.user._id, // From auth middleware
+      createdAt: new Date(),
+    });
+    res.status(201).json(result.ops[0]);
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+});
+
+// Get all expenses for user
+app.get("/expense", async (req, res) => {
+  try {
+    const expenses = await expenseCollection
+      .find({ userId: req.user._id })
+      .sort({ date: -1 })
+      .toArray();
+    res.json(expenses);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Update expense
+app.patch("/expense/:id", async (req, res) => {
+  try {
+    const result = await expenseCollection.findOneAndUpdate(
+      { _id: require("mongodb").ObjectId(req.params.id), userId: req.user._id },
+      { $set: req.body },
+      { returnOriginal: false }
+    );
+    if (!result.value) {
+      return res.status(404).json({ error: "Expense not found" });
+    }
+    res.json(result.value);
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+});
+
+// Delete expense
+app.delete("/expense/:id", async (req, res) => {
+  try {
+    const result = await expenseCollection.findOneAndDelete({
+      _id: require("mongodb").ObjectId(req.params.id),
+      userId: req.user._id,
+    });
+    if (!result.value) {
+      return res.status(404).json({ error: "Expense not found" });
+    }
+    res.json({ message: "Expense deleted successfully" });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
 
 // Update a review by ID
 app.patch("/reviews/:userId", async (req, res) => {
