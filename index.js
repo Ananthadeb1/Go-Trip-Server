@@ -46,6 +46,8 @@ run().catch(console.dir);
 const userCollection = client.db("goTrip").collection("users");
 const hotelCollection = client.db("goTrip").collection("hotels");
 const vlog_videosCollection = client.db("goTrip").collection("vlog_videos");
+const bookingsCollection = client.db("goTrip").collection("bookings");
+const reviewsCollection = client.db("goTrip").collection("reviews");
 
 //jwt releted work
 app.post("/jwt", async (req, res) => {
@@ -188,7 +190,59 @@ app.get("/hotels", async (req, res) => {
   res.send(hotels);
 });
 
+app.post("/bookings", async (req, res) => {
+  const booking = req.body;
+  console.log(booking);
+  const result = await bookingsCollection.insertOne(booking);
+  res.send(result);
+});
+
 //API endpoint
+
+// Update a review by ID
+app.patch("/reviews/:userId", async (req, res) => {
+  const userId = req.params.userId;
+
+  if (!userId) {
+    return res.status(400).send({ message: "Missing required fields" });
+  }
+
+  const updateData = {
+    rating: req.body.rating,
+    comment: req.body.comment,
+    lastUpdated: new Date(), // Add update timestamp
+  };
+
+  try {
+    // Find and update the review for this user
+    const filter = {
+      userId: userId,
+    };
+
+    const options = { upsert: true }; // Create if doesn't exist
+
+    const result = await reviewsCollection.updateOne(
+      filter,
+      { $set: updateData },
+      options
+    );
+
+    res.send({
+      success: true,
+      matchedCount: result.matchedCount,
+      modifiedCount: result.modifiedCount,
+      upsertedId: result.upsertedId,
+    });
+  } catch (error) {
+    console.error("Review update error:", error);
+    res.status(500).send({
+      message: "Failed to update review",
+      error: error.message,
+    });
+  }
+});
+
+//openrouter API integration
 app.post("/api/openrouter", async (req, res) => {
   try {
     const { messages } = req.body;
