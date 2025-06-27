@@ -49,6 +49,7 @@ const vlog_videosCollection = client.db("goTrip").collection("vlog_videos");
 const bookingsCollection = client.db("goTrip").collection("bookings");
 const reviewsCollection = client.db("goTrip").collection("reviews");
 const expenseCollection = client.db("goTrip").collection("expense");
+const itineraryCollection = client.db("goTrip").collection("itinerary");
 
 //jwt releted work
 app.post("/jwt", async (req, res) => {
@@ -232,6 +233,8 @@ app.patch("/bookings/:id/cancel", async (req, res) => {
   res.send(result);
 });
 
+//
+
 // Get all bookings for user
 // router.get('/', async (req, res) => {
 //   try {
@@ -244,6 +247,52 @@ app.patch("/bookings/:id/cancel", async (req, res) => {
 //     res.status(500).json({ error: error.message });
 //   }
 // });
+
+// Itinerary related APIs
+app.patch("/itineraries/:userId", async (req, res) => {
+  const { userId } = req.params;
+  const updateData = req.body;
+
+  try {
+    const result = await itineraryCollection.updateOne(
+      { userId },
+      {
+        $set: {
+          ...updateData,
+          updatedAt: new Date(),
+          // Set createdAt only if new document is inserted
+          ...((await itineraryCollection.countDocuments({ userId })) === 0
+            ? { createdAt: new Date() }
+            : {}),
+        },
+      },
+      { upsert: true } // Creates if doesn't exist
+    );
+
+    const message = result.upsertedId
+      ? "New itinerary created"
+      : "Existing itinerary updated";
+
+    res.json({ message, result });
+  } catch (error) {
+    res.status(500).json({ message: "Failed to update itinerary" });
+  }
+});
+
+app.get("/itineraries/:uid", async (req, res) => {
+  const uid = req.params.uid;
+  try {
+    const itinerary = await itineraryCollection.findOne({ userId: uid });
+    if (!itinerary) {
+      return res.status(404).send({ message: "Itinerary not found" });
+    }
+
+    res.send(itinerary);
+  } catch (error) {
+    console.error("Error fetching itinerary:", error);
+    res.status(500).send({ message: "Failed to fetch itinerary" });
+  }
+});
 
 // Expense related APIs
 app.post("/expense", async (req, res) => {
