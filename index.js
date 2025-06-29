@@ -50,6 +50,8 @@ const bookingsCollection = client.db("goTrip").collection("bookings");
 const reviewsCollection = client.db("goTrip").collection("reviews");
 const expenseCollection = client.db("goTrip").collection("expense");
 const itineraryCollection = client.db("goTrip").collection("itinerary");
+const busCollection = client.db("goTrip").collection("buses");
+const trainCollection = client.db("goTrip").collection("trains");
 
 //jwt releted work
 app.post("/jwt", async (req, res) => {
@@ -192,6 +194,18 @@ app.get("/hotels", async (req, res) => {
   res.send(hotels);
 });
 
+//vahicle related apis
+app.get("/buses", async (req, res) => {
+  const buses = await busCollection.find().toArray(); // Parse JSON data
+  res.send(buses);
+});
+
+// Get all trains
+app.get("/trains", async (req, res) => {
+  const trains = await trainCollection.find().toArray(); // Parse JSON data
+  res.send(trains);
+});
+
 //bookings related apis
 app.post("/bookings", async (req, res) => {
   const booking = req.body;
@@ -232,6 +246,9 @@ app.patch("/bookings/:id/cancel", async (req, res) => {
   const result = await bookingsCollection.updateOne(filter, updateDoc);
   res.send(result);
 });
+
+//delete all booking data after deleting the user
+app.delete("/bookings/userId");
 
 //
 
