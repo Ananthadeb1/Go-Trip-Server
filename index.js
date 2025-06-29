@@ -215,13 +215,13 @@ app.post("/bookings", async (req, res) => {
 });
 
 // Get a single booking by ID
-app.get("/bookings/:userId", async (req, res) => {
+app.get("/bookings/:_id", async (req, res) => {
   try {
-    const userId = req.params.userId;
+    const userId = req.params._id;
 
     // Find bookings for this user with status 'confirmed'
     const bookings = await bookingsCollection
-      .find({ userId: userId, status: "confirmed" })
+      .find({ userId: userId })
       .toArray();
 
     if (!bookings || bookings.length === 0) {
@@ -248,7 +248,18 @@ app.patch("/bookings/:id/cancel", async (req, res) => {
 });
 
 //delete all booking data after deleting the user
-app.delete("/bookings/userId");
+app.delete("/bookings/:_id", async (req, res) => {
+  const userId = req.params._id;
+  try {
+    const result = await bookingsCollection.deleteMany({ userId: userId });
+    res.send({ success: true, deletedCount: result.deletedCount });
+  } catch (error) {
+    console.error("Error deleting bookings:", error);
+    res
+      .status(500)
+      .send({ success: false, message: "Failed to delete bookings" });
+  }
+});
 
 //
 
@@ -266,7 +277,7 @@ app.delete("/bookings/userId");
 // });
 
 // Itinerary related APIs
-app.patch("/itineraries/:userId", async (req, res) => {
+app.patch("/itineraries/:_id", async (req, res) => {
   const { userId } = req.params;
   const updateData = req.body;
 
@@ -296,8 +307,8 @@ app.patch("/itineraries/:userId", async (req, res) => {
   }
 });
 
-app.get("/itineraries/:uid", async (req, res) => {
-  const uid = req.params.uid;
+app.get("/itineraries/:_id", async (req, res) => {
+  const uid = req.params._id;
   try {
     const itinerary = await itineraryCollection.findOne({ userId: uid });
     if (!itinerary) {
@@ -310,76 +321,106 @@ app.get("/itineraries/:uid", async (req, res) => {
     res.status(500).send({ message: "Failed to fetch itinerary" });
   }
 });
-
+app.delete("/itineraries/:_id", async (req, res) => {
+  const userId = req.params._id;
+  try {
+    const result = await itineraryCollection.deleteOne({ userId });
+    if (result.deletedCount === 0) {
+      return res.status(404).send({ message: "Itinerary not found" });
+    }
+    res.send({ success: true, message: "Itinerary deleted" });
+  } catch (error) {
+    res
+      .status(500)
+      .send({ message: "Failed to delete itinerary", error: error.message });
+  }
+});
 // Expense related APIs
-app.post("/expense", async (req, res) => {
+app.get("/expenses/:_id", async (req, res) => {
+  const userId = req.params._id;
   try {
-    const result = await expenseCollection.insertOne({
-      ...req.body,
-      userId: req.user._id, // From auth middleware
-      createdAt: new Date(),
-    });
-    res.status(201).json(result.ops[0]);
+    const expenses = await expenseCollection.find({ userId }).toArray();
+    res.send(expenses);
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    res
+      .status(500)
+      .send({ message: "Failed to fetch expenses", error: error.message });
   }
 });
 
-// Get all expenses for user
-app.get("/expense", async (req, res) => {
+// Create a new expense
+app.post("/expenses", async (req, res) => {
+  const expense = req.body;
+  if (
+    !expense.userId ||
+    !expense.title ||
+    !expense.amount ||
+    !expense.category ||
+    !expense.date
+  ) {
+    return res.status(400).send({ message: "Missing required fields" });
+  }
   try {
-    const expenses = await expenseCollection
-      .find({ userId: req.user._id })
-      .sort({ date: -1 })
-      .toArray();
-    res.json(expenses);
+    const result = await expenseCollection.insertOne(expense);
+    res.send({ success: true, insertedId: result.insertedId });
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    res
+      .status(500)
+      .send({ message: "Failed to add expense", error: error.message });
   }
 });
 
-// Update expense
-app.patch("/expense/:id", async (req, res) => {
+// Update an expense by ID
+app.patch("/expenses/:id", async (req, res) => {
+  const id = req.params.id;
+  if (!ObjectId.isValid(id)) {
+    return res.status(400).send({ message: "Invalid expense ID" });
+  }
+  const updateData = req.body;
   try {
-    const result = await expenseCollection.findOneAndUpdate(
-      { _id: require("mongodb").ObjectId(req.params.id), userId: req.user._id },
-      { $set: req.body },
-      { returnOriginal: false }
+    const result = await expenseCollection.updateOne(
+      { _id: new ObjectId(id) },
+      { $set: updateData }
     );
-    if (!result.value) {
-      return res.status(404).json({ error: "Expense not found" });
-    }
-    res.json(result.value);
-  } catch (error) {
-    res.status(400).json({ error: error.message });
-  }
-});
-
-// Delete expense
-app.delete("/expense/:id", async (req, res) => {
-  try {
-    const result = await expenseCollection.findOneAndDelete({
-      _id: require("mongodb").ObjectId(req.params.id),
-      userId: req.user._id,
+    res.send({
+      success: true,
+      matchedCount: result.matchedCount,
+      modifiedCount: result.modifiedCount,
     });
-    if (!result.value) {
-      return res.status(404).json({ error: "Expense not found" });
-    }
-    res.json({ message: "Expense deleted successfully" });
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    res
+      .status(500)
+      .send({ message: "Failed to update expense", error: error.message });
   }
 });
-
-// Update a review by ID
+// Delete a single expense by its ID
+app.delete("/expenses/:id", async (req, res) => {
+  const id = req.params.id;
+  if (!ObjectId.isValid(id)) {
+    return res.status(400).send({ message: "Invalid expense ID" });
+  }
+  try {
+    const result = await expenseCollection.deleteOne({ _id: new ObjectId(id) });
+    if (result.deletedCount === 0) {
+      return res.status(404).send({ message: "Expense not found" });
+    }
+    res.send({ success: true, deletedCount: result.deletedCount });
+  } catch (error) {
+    res
+      .status(500)
+      .send({ message: "Failed to delete expense", error: error.message });
+  }
+});
 app.patch("/reviews/:userId", async (req, res) => {
   const userId = req.params.userId;
+  const name = req.params.name;
 
   if (!userId) {
     return res.status(400).send({ message: "Missing required fields" });
   }
 
   const updateData = {
+    name: req.body.name,
     rating: req.body.rating,
     comment: req.body.comment,
     lastUpdated: new Date(), // Add update timestamp
@@ -411,6 +452,16 @@ app.patch("/reviews/:userId", async (req, res) => {
       message: "Failed to update review",
       error: error.message,
     });
+  }
+});
+app.get("/reviews", async (req, res) => {
+  try {
+    const reviews = await reviewsCollection.find().toArray();
+    res.send(reviews);
+  } catch (error) {
+    res
+      .status(500)
+      .send({ message: "Failed to fetch reviews", error: error.message });
   }
 });
 
