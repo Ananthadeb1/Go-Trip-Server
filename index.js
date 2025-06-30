@@ -213,6 +213,16 @@ app.post("/bookings", async (req, res) => {
   const result = await bookingsCollection.insertOne(booking);
   res.send(result);
 });
+app.get("/bookings", async (req, res) => {
+  try {
+    const bookings = await bookingsCollection.find().toArray();
+    res.send(bookings);
+  } catch (error) {
+    res
+      .status(500)
+      .send({ message: "Failed to fetch bookings", error: error.message });
+  }
+});
 
 // Get a single booking by ID
 app.get("/bookings/:_id", async (req, res) => {
@@ -248,19 +258,28 @@ app.patch("/bookings/:id/cancel", async (req, res) => {
 });
 
 //delete all booking data after deleting the user
-app.delete("/bookings/:_id", async (req, res) => {
-  const userId = req.params._id;
+app.delete("/bookings/:id", async (req, res) => {
+  const bookingId = req.params.id;
+  if (!ObjectId.isValid(bookingId)) {
+    return res.status(400).send({ message: "Invalid booking ID" });
+  }
   try {
-    const result = await bookingsCollection.deleteMany({ userId: userId });
+    const result = await bookingsCollection.deleteOne({
+      _id: new ObjectId(bookingId),
+    });
+    if (result.deletedCount === 0) {
+      return res
+        .status(404)
+        .send({ success: false, message: "Booking not found" });
+    }
     res.send({ success: true, deletedCount: result.deletedCount });
   } catch (error) {
-    console.error("Error deleting bookings:", error);
+    console.error("Error deleting booking:", error);
     res
       .status(500)
-      .send({ success: false, message: "Failed to delete bookings" });
+      .send({ success: false, message: "Failed to delete booking" });
   }
 });
-
 //
 
 // Get all bookings for user
