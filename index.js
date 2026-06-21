@@ -34,7 +34,7 @@ async function run() {
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(
-      "Pinged your deployment. You successfully connected to MongoDB!"
+      "Pinged your deployment. You successfully connected to MongoDB!",
     );
   } catch (error) {
     console.error("Failed to connect to MongoDB:", error);
@@ -280,6 +280,62 @@ app.delete("/bookings/:id", async (req, res) => {
       .send({ success: false, message: "Failed to delete booking" });
   }
 });
+
+// delete single booking data by booking id
+// Delete booking history
+app.delete("/:bookingId", async (req, res) => {
+  try {
+    const { bookingId } = req.params;
+
+    const booking = await Booking.findById(bookingId);
+
+    if (!booking) {
+      return res.status(404).json({
+        success: false,
+        message: "Booking not found",
+      });
+    }
+
+    // Check if user owns this booking
+    if (
+      booking.userId.toString() !== req.user._id.toString() &&
+      req.user.role !== "admin"
+    ) {
+      return res.status(403).json({
+        success: false,
+        message: "Unauthorized to delete this booking",
+      });
+    }
+
+    // Only allow deletion of cancelled or past bookings
+    if (booking.status === "confirmed") {
+      const now = new Date();
+      const checkInDate =
+        booking.startDate || booking.journeyDate || booking.date;
+      if (checkInDate && new Date(checkInDate) > now) {
+        return res.status(400).json({
+          success: false,
+          message: "Cannot delete active/upcoming bookings",
+        });
+      }
+    }
+
+    await Booking.findByIdAndDelete(bookingId);
+
+    res.status(200).json({
+      success: true,
+      message: "Booking history deleted successfully",
+    });
+  } catch (error) {
+    console.error("Error deleting booking:", error);
+    res.status(500).json({
+      success: false,
+      message: "Error deleting booking",
+      error: error.message,
+    });
+  }
+});
+
 //
 
 // Get all bookings for user
@@ -313,7 +369,7 @@ app.patch("/itineraries/:_id", async (req, res) => {
             : {}),
         },
       },
-      { upsert: true } // Creates if doesn't exist
+      { upsert: true }, // Creates if doesn't exist
     );
 
     const message = result.upsertedId
@@ -399,7 +455,7 @@ app.patch("/expenses/:id", async (req, res) => {
   try {
     const result = await expenseCollection.updateOne(
       { _id: new ObjectId(id) },
-      { $set: updateData }
+      { $set: updateData },
     );
     res.send({
       success: true,
@@ -456,7 +512,7 @@ app.patch("/reviews/:userId", async (req, res) => {
     const result = await reviewsCollection.updateOne(
       filter,
       { $set: updateData },
-      options
+      options,
     );
 
     res.send({
@@ -502,7 +558,7 @@ app.post("/api/openrouter", async (req, res) => {
           "HTTP-Referer": "https://yourdomain.com", // From environment vars
           "X-Title": "Your App Name", // From environment vars
         },
-      }
+      },
     );
 
     res.json(response.data);
