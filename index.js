@@ -48,36 +48,55 @@ const hotelCollection = client.db("goTrip").collection("hotels");
 const vlog_videosCollection = client.db("goTrip").collection("vlog_videos");
 const bookingsCollection = client.db("goTrip").collection("bookings");
 const reviewsCollection = client.db("goTrip").collection("reviews");
-const expenseCollection = client.db("goTrip").collection("expense");
+const tourCollection = client.db("goTrip").collection("tours");
 const itineraryCollection = client.db("goTrip").collection("itinerary");
 const busCollection = client.db("goTrip").collection("buses");
 const trainCollection = client.db("goTrip").collection("trains");
+
+// connect external codes
 
 //jwt releted work
 app.post("/jwt", async (req, res) => {
   const user = req.body;
   const token = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, {
-    expiresIn: "1h",
+    expiresIn: "2h",
   });
   res.send({ token });
 });
 
 //midleware for verify jwt token
 const verifyToken = (req, res, next) => {
-  console.log("inside verify token", req.headers.authorization);
-  if (!req.headers.authorization) {
+  // Try to get token from multiple sources
+  let token = null;
+
+  // 1. From Authorization header
+  if (req.headers.authorization) {
+    token = req.headers.authorization.split(" ")[1];
+  }
+
+  console.log("Token found:", token ? "Yes" : "No");
+
+  if (!token) {
     return res.status(401).send({ message: "unauthorized access" });
   }
-  const token = req.headers.authorization.split(" ")[1];
+
   jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, decoded) => {
     if (err) {
+      console.log("Token verification failed:", err.message);
       return res.status(403).send({ message: "unauthorized access" });
     }
     req.decoded = decoded;
     next();
   });
-  // next();
 };
+
+// ========== USER HELPER FUNCTION ==========
+// ইউজারের MongoDB _id বের করার ফাংশন (email দিয়ে)
+const getUserIdByEmail = async (email) => {
+  const user = await userCollection.findOne({ email });
+  return user ? user._id : null;
+};
+
 //user releated apis
 app.get("/users", verifyToken, async (req, res) => {
   // console.log(req.headers);
@@ -182,6 +201,17 @@ app.delete("/users/:id", verifyToken, async (req, res) => {
   }
 });
 
+// tour releted api
+const createToursExpensesRoutes = require("./toursExpensesRoutes");
+app.use(
+  createToursExpensesRoutes({
+    tourCollection,
+    bookingsCollection,
+    verifyToken,
+    getUserIdByEmail,
+  }),
+);
+
 //vlog video related apis
 app.get("/vlog_videos", async (req, res) => {
   const videos = await vlog_videosCollection.find().toArray(); // Parse JSON data
@@ -224,21 +254,24 @@ app.get("/bookings", async (req, res) => {
   }
 });
 
-// Get a single booking by ID
-app.get("/bookings/:_id", async (req, res) => {
+// Get single bookings for a user (supports both email and ObjectId)
+app.get("/bookings/:userId", async (req, res) => {
   try {
-    const userId = req.params._id;
+    const userId = req.params.userId;
 
-    // Find bookings for this user with status 'confirmed'
+    // Check if userId is a valid ObjectId or email
+    let query = { userId: userId };
+
+    // If it's a valid ObjectId, also try that
+    if (ObjectId.isValid(userId)) {
+      // Try both email and ObjectId
+      query = { $or: [{ userId: userId }, { userId: userId }] };
+    }
+
+    // Find bookings for this user
     const bookings = await bookingsCollection
       .find({ userId: userId })
       .toArray();
-
-    if (!bookings || bookings.length === 0) {
-      return res
-        .status(404)
-        .send({ message: "No confirmed bookings found for this user" });
-    }
 
     res.send(bookings);
   } catch (error) {
@@ -252,7 +285,6 @@ app.patch("/bookings/:id/cancel", async (req, res) => {
   const updateData = { status: "cancelled" };
   const filter = { _id: new ObjectId(id) };
   const updateDoc = { $set: updateData };
-
   const result = await bookingsCollection.updateOne(filter, updateDoc);
   res.send(result);
 });
@@ -410,82 +442,8 @@ app.delete("/itineraries/:_id", async (req, res) => {
       .send({ message: "Failed to delete itinerary", error: error.message });
   }
 });
-// Expense related APIs
-app.get("/expenses/:_id", async (req, res) => {
-  const userId = req.params._id;
-  try {
-    const expenses = await expenseCollection.find({ userId }).toArray();
-    res.send(expenses);
-  } catch (error) {
-    res
-      .status(500)
-      .send({ message: "Failed to fetch expenses", error: error.message });
-  }
-});
 
-// Create a new expense
-app.post("/expenses", async (req, res) => {
-  const expense = req.body;
-  if (
-    !expense.userId ||
-    !expense.title ||
-    !expense.amount ||
-    !expense.category ||
-    !expense.date
-  ) {
-    return res.status(400).send({ message: "Missing required fields" });
-  }
-  try {
-    const result = await expenseCollection.insertOne(expense);
-    res.send({ success: true, insertedId: result.insertedId });
-  } catch (error) {
-    res
-      .status(500)
-      .send({ message: "Failed to add expense", error: error.message });
-  }
-});
-
-// Update an expense by ID
-app.patch("/expenses/:id", async (req, res) => {
-  const id = req.params.id;
-  if (!ObjectId.isValid(id)) {
-    return res.status(400).send({ message: "Invalid expense ID" });
-  }
-  const updateData = req.body;
-  try {
-    const result = await expenseCollection.updateOne(
-      { _id: new ObjectId(id) },
-      { $set: updateData },
-    );
-    res.send({
-      success: true,
-      matchedCount: result.matchedCount,
-      modifiedCount: result.modifiedCount,
-    });
-  } catch (error) {
-    res
-      .status(500)
-      .send({ message: "Failed to update expense", error: error.message });
-  }
-});
-// Delete a single expense by its ID
-app.delete("/expenses/:id", async (req, res) => {
-  const id = req.params.id;
-  if (!ObjectId.isValid(id)) {
-    return res.status(400).send({ message: "Invalid expense ID" });
-  }
-  try {
-    const result = await expenseCollection.deleteOne({ _id: new ObjectId(id) });
-    if (result.deletedCount === 0) {
-      return res.status(404).send({ message: "Expense not found" });
-    }
-    res.send({ success: true, deletedCount: result.deletedCount });
-  } catch (error) {
-    res
-      .status(500)
-      .send({ message: "Failed to delete expense", error: error.message });
-  }
-});
+//review releted apis
 app.patch("/reviews/:userId", async (req, res) => {
   const userId = req.params.userId;
   const name = req.params.name;
@@ -575,9 +533,3 @@ app.get("/", (_, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-
-// for run server type in cmd-
-// nodemon index.js
-// search in browser
-// http://localhost:3000/
-//database mail - 103@
