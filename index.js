@@ -36,8 +36,17 @@ async function run() {
     console.log(
       "Pinged your deployment. You successfully connected to MongoDB!",
     );
+
+    // Create database indexes to prevent table scans and speed up queries
+    const db = client.db("goTrip");
+    await db.collection("users").createIndex({ email: 1 }, { unique: true });
+    await db.collection("tours").createIndex({ userId: 1 });
+    await db.collection("bookings").createIndex({ userId: 1 });
+    await db.collection("reviews").createIndex({ userId: 1 });
+    await db.collection("itinerary").createIndex({ userId: 1 });
+    console.log("MongoDB indexes verified/created successfully.");
   } catch (error) {
-    console.error("Failed to connect to MongoDB:", error);
+    console.error("Failed to connect to MongoDB or create indexes:", error);
   }
 }
 run().catch(console.dir);
